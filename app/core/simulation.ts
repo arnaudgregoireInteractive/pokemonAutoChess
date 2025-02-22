@@ -1080,21 +1080,21 @@ export default class Simulation extends Schema implements ISimulation {
 
       case Effect.BATTLE_ARMOR:
         if (types.has(Synergy.ROCK)) {
-          pokemon.addDefense(5, pokemon, 0, false)
+          pokemon.addDefense(10, pokemon, 0, false)
           pokemon.effects.add(Effect.BATTLE_ARMOR)
         }
         break
 
       case Effect.MOUTAIN_RESISTANCE:
         if (types.has(Synergy.ROCK)) {
-          pokemon.addDefense(15, pokemon, 0, false)
+          pokemon.addDefense(30, pokemon, 0, false)
           pokemon.effects.add(Effect.MOUTAIN_RESISTANCE)
         }
         break
 
       case Effect.DIAMOND_STORM:
         if (types.has(Synergy.ROCK)) {
-          pokemon.addDefense(30, pokemon, 0, false)
+          pokemon.addDefense(60, pokemon, 0, false)
           pokemon.effects.add(Effect.DIAMOND_STORM)
         }
         break
@@ -1118,22 +1118,22 @@ export default class Simulation extends Schema implements ISimulation {
 
       case Effect.CHILLY:
         pokemon.effects.add(Effect.CHILLY)
-        pokemon.addSpecialDefense(2, pokemon, 0, false)
+        pokemon.addSpecialDefense(4, pokemon, 0, false)
         break
 
       case Effect.FROSTY:
         pokemon.effects.add(Effect.FROSTY)
-        pokemon.addSpecialDefense(6, pokemon, 0, false)
+        pokemon.addSpecialDefense(12, pokemon, 0, false)
         break
 
       case Effect.FREEZING:
         pokemon.effects.add(Effect.FREEZING)
-        pokemon.addSpecialDefense(20, pokemon, 0, false)
+        pokemon.addSpecialDefense(40, pokemon, 0, false)
         break
 
       case Effect.SHEER_COLD:
         pokemon.effects.add(Effect.SHEER_COLD)
-        pokemon.addSpecialDefense(30, pokemon, 0, false)
+        pokemon.addSpecialDefense(60, pokemon, 0, false)
         break
 
       case Effect.POISONOUS:
@@ -1382,7 +1382,7 @@ export default class Simulation extends Schema implements ISimulation {
         const player = pokemon.player
         const nbMistStones = player ? count(player.items, Item.MIST_STONE) : 0
         if (nbMistStones > 0) {
-          pokemon.addSpecialDefense(2 * nbMistStones, pokemon, 0, false)
+          pokemon.addSpecialDefense(3 * nbMistStones, pokemon, 0, false)
         }
         break
       }
@@ -1645,8 +1645,8 @@ export default class Simulation extends Schema implements ISimulation {
         opponentsCursable.filter((p) => p.def + p.speDef === highestDef)
       )
       if (enemyWithHighestDef) {
-        enemyWithHighestDef.addDefense(-2, enemyWithHighestDef, 0, false)
-        enemyWithHighestDef.addSpecialDefense(-2, enemyWithHighestDef, 0, false)
+        enemyWithHighestDef.addDefense(-5, enemyWithHighestDef, 0, false)
+        enemyWithHighestDef.addSpecialDefense(-5, enemyWithHighestDef, 0, false)
         enemyWithHighestDef.status.curseVulnerability = true
         enemyWithHighestDef.status.triggerFlinch(
           30000,

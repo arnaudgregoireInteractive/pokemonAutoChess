@@ -321,7 +321,7 @@ export default class Status extends Schema implements IStatus {
       }
 
       if (pkm.passive === Passive.WELL_BAKED) {
-        pkm.addDefense(10, pkm, 0, false)
+        pkm.addDefense(20, pkm, 0, false)
       }
 
       if (pkm.items.has(Item.RAWST_BERRY)) {
@@ -385,7 +385,7 @@ export default class Status extends Schema implements IStatus {
       pkm.addAttack(-5, pkm, 0, false)
     }
     if (pkm.passive === Passive.WELL_BAKED) {
-      pkm.addDefense(-10, pkm, 0, false)
+      pkm.addDefense(-20, pkm, 0, false)
     }
   }
 

@@ -757,7 +757,7 @@
 		"KNOWLEDGE_THIEF": "Użyj zdolności celu. Gracz otrzymuje 1 XP.",
 		"KING_SHIELD": "CHROŃ użytkownika na 1,5 sekundy, zyskaj [10,20,30,SP] SHIELD i zamień się pozycjami z najdalszym wrogim Pokémonem",
 		"EXPLOSION": "Zadaj [50,100,200,SP] SPECIAL wszystkim sąsiadującym wrogom. Niszczy użytkownika",
-		"CLANGOROUS_SOUL": "Wzmocnij siebie i sąsiadujących sojuszników ATK, DEF i SPE_DEF o [1,2,4,SP]",
+		"CLANGOROUS_SOUL": "Wzmocnij siebie i sąsiadujących sojuszników ATK, DEF i SPE_DEF o [2,4,8,SP]",
 		"BONEMERANG": "Rzuć kość jak bumerang przez wrogą drużynę, zadając [30,60,90,SP] SPECIAL każdemu wrogiemu Pokémonowi, którego trafi",
 		"GROWL": "FLINCH sąsiadujących wrogów na 3 sekundy i zmniejsza ich ATK o [3,5,7,SP]",
 		"FAIRY_WIND": "Daj [5,10,20,SP=0.5] PP wszystkim sojuszniczym Pokémonom, z wyjątkiem użytkownika"

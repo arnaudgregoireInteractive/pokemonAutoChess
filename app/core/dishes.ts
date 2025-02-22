@@ -187,12 +187,12 @@ export const DishEffects: Record<(typeof Dishes)[number], Effect[]> = {
   ],
   SWEET_APPLE: [
     new OnHitEffect((entity, target, board) => {
-      target.addSpecialDefense(-1, entity, 0, false)
+      target.addSpecialDefense(-2, entity, 0, false)
     })
   ],
   TART_APPLE: [
     new OnHitEffect((entity, target, board) => {
-      target.addDefense(-1, entity, 0, false)
+      target.addDefense(-2, entity, 0, false)
     })
   ],
   SWEET_HERB: [
@@ -249,7 +249,7 @@ export const DishEffects: Record<(typeof Dishes)[number], Effect[]> = {
   ],
   RIBBON_SWEET: [
     new OnSpawnEffect((entity) => {
-      entity.addSpecialDefense(2, entity, 0, false, true)
+      entity.addSpecialDefense(3, entity, 0, false, true)
     })
   ]
 }

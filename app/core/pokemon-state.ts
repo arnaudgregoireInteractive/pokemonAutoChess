@@ -65,7 +65,7 @@ export default abstract class PokemonState {
       }
 
       if (pokemon.effects.has(Effect.STONE_EDGE)) {
-        damage += Math.round(pokemon.def * (1 + pokemon.ap / 100))
+        damage += Math.round(pokemon.def * 0.5 * (1 + pokemon.ap / 100))
       }
 
       let additionalSpecialDamagePart = 0

@@ -57,6 +57,7 @@
 - Change Unown-O: OVEN - Cook a random dish for all your pokemons next fight
 - Nerf Cryogonal: PP 95 → 100, Freeze dry: remove AP scaling on the special defense part of the damage, explosive damage 40 + 150% spedef → 30 + 100% spe def
 - Nerf Alolan Raichu: back to tier 3, gets the same stats as Raichu but keeps the additional psychic synergy
+- Change HyperSpace Fury: now also reduces special defense evert hit
 
 # Changes to Synergies
 
@@ -77,6 +78,7 @@
 
 # Gameplay
 
+- Defense and special defense stats have all been doubled, and damage reduction formula changed to `1/(1+def/20)` instead of `1/(1+def/10)`. This will allow more precise number tweaking in the future.
 - Added regional variants for Unique and Legendary Pokémon. The first regional variant is Galarian Farfetch'd, which can be found in Fighting regions
 - Regional variants are no longer found in maps with common synergies between the variant and the original Pokémon
 - When an effect is considering the strongest Pokémon, or the pokémon with the highest stat, if several Pokémon are equal, it now selects a random Pokémon among those. Before, it was based on board position. This is especially relevant for Ghost curses.
