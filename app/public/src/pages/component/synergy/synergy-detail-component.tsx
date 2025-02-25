@@ -140,37 +140,37 @@ export default function SynergyDetailComponent(props: {
       })}
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {regulars.map((p) => (
-          <PokemonPortrait p={p} key={p.name} player={currentPlayer} />
+          <PokemonPortrait p={p} key={p.name} type={props.type} player={currentPlayer} />
         ))}
       </div>
       <div style={{ display: "flex", flexWrap: "wrap", marginTop: "0.5em" }}>
         {additionals.map((p) => (
-          <PokemonPortrait p={p} key={p.name} player={currentPlayer} />
+          <PokemonPortrait p={p} key={p.name} type={props.type} player={currentPlayer} />
         ))}
       </div>
       <div style={{ display: "flex", flexWrap: "wrap", marginTop: "0.5em" }}>
         {uniques.map((p) => (
-          <PokemonPortrait p={p} key={p.name} player={currentPlayer} />
+          <PokemonPortrait p={p} key={p.name} type={props.type} player={currentPlayer} />
         ))}
       </div>
       <div style={{ display: "flex", flexWrap: "wrap", marginTop: "0.5em" }}>
         {legendaries.map((p) => (
-          <PokemonPortrait p={p} key={p.name} player={currentPlayer} />
+          <PokemonPortrait p={p} key={p.name} type={props.type} player={currentPlayer} />
         ))}
       </div>
       <div style={{ display: "flex", flexWrap: "wrap", marginTop: "0.5em" }}>
         {specials.map((p) => (
-          <PokemonPortrait p={p} key={p.name} player={currentPlayer} />
+          <PokemonPortrait p={p} key={p.name} type={props.type} player={currentPlayer} />
         ))}
       </div>
     </div>
   )
 }
 
-function PokemonPortrait(props: { p: IPokemonData, player?: IPlayer }) {
+function PokemonPortrait(props: { p: IPokemonData, type: Synergy, player?: IPlayer }) {
   const [antialiasing] = usePreference("antialiasing")
   const isOnTeam = (p: Pkm) => props.player != null && values(props.player.board).some(
-    (x) => PkmFamily[x.name] === p || x.name === p
+    (x) => PkmFamily[x.name] === PkmFamily[p] && x.types.has(props.type)
   )
   return (
     <div
