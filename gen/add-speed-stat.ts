@@ -88,18 +88,20 @@ try {
           (baseSpeed - AVERAGE_FULLY_EVOLVED_SPEED) * SPEED_DIFF_ATTENUATION) *
           SPEED_MODIFIER_FACTOR
       )
-      const newAtk = min(1)(
+      // newAtk = atk * 0.75/(0.4+0.007*(1+ASBP)*speed)
+      /*const newAtk = min(1)(
         Math.round(
           (atk * AVERAGE_TARGET_SPEED) /
             (AVERAGE_TARGET_SPEED + (1 + ASBP) * (speed - AVERAGE_TARGET_SPEED))
         )
+      )*/
+      const newAtk = min(1)(
+        Math.round((atk * 0.75) / (0.4 + 0.007 * (1 + ASBP) * speed))
       )
       const newMaxPP = min(10)(
         Math.round(
           (maxPP *
-            (1 +
-              (PPBP[range - 1] * (speed - AVERAGE_TARGET_SPEED)) /
-                AVERAGE_TARGET_SPEED)) /
+            (1 - (1 - (0.75 / (0.4 + 0.007 * speed)) * PPBP[range - 1]))) /
             10
         ) * 10
       )

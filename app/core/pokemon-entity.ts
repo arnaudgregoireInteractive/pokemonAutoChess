@@ -696,7 +696,7 @@ export class PokemonEntity extends Schema implements IPokemonEntity {
 
     if (this.items.has(Item.BLUE_ORB)) {
       this.count.staticHolderCount++
-      if (this.count.staticHolderCount > 2) {
+      if (this.count.staticHolderCount >= 4) {
         this.count.staticHolderCount = 0
         const nbBounces = 2
         const closestEnemies = new Array<PokemonEntity>()

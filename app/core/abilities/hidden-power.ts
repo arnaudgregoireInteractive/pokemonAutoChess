@@ -313,7 +313,7 @@ export class HiddenPowerNStrategy extends HiddenPowerStrategy {
         if (pokemon && unown.team === pokemon.team) {
           const target = board.getValue(pokemon.targetX, pokemon.targetY)
           if (target) {
-            pokemon.addShield(50, unown, 0, false)
+            pokemon.addShield(50, unown, 1, false)
             AbilityStrategies[Ability.EXPLOSION].process(
               pokemon,
               pokemon.state,

@@ -52,6 +52,7 @@
 - Buff Houndour line: PP 125 → 110
 - Buff Topsy Turvy (Inkay): also reverse AP buffs
 - Nerf Inteleon: Snipe shot damage 40/80/160 → 40/80/120
+- Nerf Gastly line: PP 60 → 80
 - Nerf Stantler: HP 200 → 180, Def/Spedef: 5 → 3 (6 post def/spedef stat change)
 - Nerf Miltank: HP 250 → 200
 - Nerf Spinda: HP 250 → 200
@@ -60,6 +61,7 @@
 - Rework Fuecoco line: now 3-range with nerfed defense/special defense, ability Torch Song reworked, PP 100 → 60
 - Porygon is now in Ultra category ; adjusted stats ; new passive Conversion: get the highest synergy of your opponent and its effects at the start of the fight.
 - Change Unown-O: OVEN - Cook a random dish for all your pokemons next fight
+- Buff Unown-N: Shield provided to your team now scales with Unown AP
 - Nerf Cryogonal: PP 95 → 100, Freeze dry: remove AP scaling on the special defense part of the damage, explosive damage 40 + 150% spedef → 30 + 100% spe def
 - Nerf Alolan Raichu: back to tier 3, gets the same stats as Raichu but keeps the additional psychic synergy
 - Change HyperSpace Fury: now also reduces special defense evert hit
@@ -79,6 +81,7 @@
 
 - New item category: Dishes ; Dishes are cooked by Gourmet chefs to give strong buffs to a Pokémon in the next fight. If not used by the end of the timer, the cook or another random ally will eat it.
 - More than 20 dishes have been added to the game
+- Nerf Blue Orb: applies the effect every ~~3~~ 4 attacks
 - Nerf Pokerus: effect applies every ~~2~~ 2.5 seconds
 - Buff Swift Wing: 25 → 30% attack speed
 - Minor nerf to Repeat Ball: legendaries are found afer ~~140~~ 150 rolls

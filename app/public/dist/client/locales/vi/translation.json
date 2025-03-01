@@ -1354,7 +1354,7 @@
     "HIDDEN_POWER_K": "Tạo ra 1 con Hitmonlee với RED_ORB và hồi đầy thanh PP",
     "HIDDEN_POWER_L": "Team địch bị LOCKED trong 5 giây",
     "HIDDEN_POWER_M": "Tất cả đồng minh được hồi đầy thanh PP",
-    "HIDDEN_POWER_N": "Tất cả đồng minh nhận được 50 SHIELD và sử dụng $t(ability.EXPLOSION)",
+    "HIDDEN_POWER_N": "Tất cả đồng minh nhận được [50,SP] SHIELD và sử dụng $t(ability.EXPLOSION)",
     "HIDDEN_POWER_O": "Nấu một món ăn ngẫu nhiên cho tất cả Pokémon của bạn cho trận chiến tiếp theo",
     "HIDDEN_POWER_P": "Tạo ra 5 con STAR BUG Pokémon ngẫu nhiên",
     "HIDDEN_POWER_Q": "Ngay lập tức kết thúc trận đấu với một trận hòa",

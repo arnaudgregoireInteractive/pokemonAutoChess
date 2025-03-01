@@ -20,6 +20,7 @@ const csvWriter = createObjectCsvWriter({
     { id: "type4", title: "Type 4" },
     { id: "hp", title: "HP" },
     { id: "attack", title: "Attack" },
+    { id: "speed", title: "Speed" },
     { id: "def", title: "Defense" },
     { id: "spedef", title: "Special Defense" },
     { id: "range", title: "Attack Range" },
@@ -50,6 +51,7 @@ interface PokemonData {
   type4: string
   hp: number
   attack: number
+  speed: number
   def: number
   spedef: number
   range: number
@@ -102,6 +104,7 @@ export function csvExport() {
           type4: types[3] ?? "",
           hp: pokemon.hp,
           attack: pokemon.atk,
+          speed: pokemon.speed,
           def: pokemon.def,
           spedef: pokemon.speDef,
           range: pokemon.range,

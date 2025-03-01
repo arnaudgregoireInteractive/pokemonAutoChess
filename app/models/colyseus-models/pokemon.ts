@@ -252,7 +252,7 @@ export class Ditto extends Pokemon {
   rarity = Rarity.SPECIAL
   stars = 1
   hp = 50
-  atk = 6
+  atk = 5
   speed = 40
   def = 2
   speDef = 2
@@ -268,11 +268,11 @@ export class Substitute extends Pokemon {
   rarity = Rarity.SPECIAL
   stars = 1
   hp = 80
-  atk = 2
+  atk = 1
   speed = 28
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.DEFAULT
   attackSprite = AttackSprite.NORMAL_MELEE
@@ -302,7 +302,7 @@ export class Electrike extends Pokemon {
   stars = 1
   evolution = Pkm.MANECTRIC
   hp = 80
-  atk = 6
+  atk = 5
   speed = 70
   def = 6
   speDef = 6
@@ -319,7 +319,7 @@ export class Manectric extends Pokemon {
   stars = 2
   //evolution = Pkm.MEGA_MANECTRIC
   hp = 160
-  atk = 14
+  atk = 12
   speed = 70
   def = 8
   speDef = 8
@@ -352,7 +352,7 @@ export class Shuppet extends Pokemon {
   stars = 1
   evolution = Pkm.BANETTE
   hp = 100
-  atk = 11
+  atk = 10
   speed = 46
   def = 4
   speDef = 6
@@ -369,7 +369,7 @@ export class Banette extends Pokemon {
   stars = 2
   //evolution = Pkm.MEGA_BANETTE
   hp = 180
-  atk = 22
+  atk = 20
   speed = 46
   def = 6
   speDef = 8
@@ -385,7 +385,7 @@ export class MegaBanette extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 300
-  atk = 33
+  atk = 30
   speed = 46
   def = 8
   speDef = 10
@@ -443,7 +443,7 @@ export class Crabrawler extends Pokemon {
   stars = 1
   evolution = Pkm.CRABOMINABLE
   hp = 90
-  atk = 12
+  atk = 10
   speed = 39
   def = 4
   speDef = 4
@@ -464,7 +464,7 @@ export class Crabominable extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 220
-  atk = 29
+  atk = 24
   speed = 39
   def = 6
   speDef = 6
@@ -498,7 +498,7 @@ export class Ribombee extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 9
+  atk = 10
   speed = 65
   def = 4
   speDef = 4
@@ -565,7 +565,7 @@ export class Altaria extends Pokemon {
   stars = 2
   //evolution = Pkm.MEGA_ALTARIA
   hp = 170
-  atk = 16
+  atk = 15
   speed = 51
   def = 8
   speDef = 8
@@ -598,7 +598,7 @@ export class Scyther extends Pokemon {
   stars = 3
   evolutions = [Pkm.SCIZOR, Pkm.KLEAVOR]
   hp = 170
-  atk = 16
+  atk = 17
   speed = 59
   def = 10
   speDef = 10
@@ -625,7 +625,7 @@ export class Scizor extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 4
   hp = 170
-  atk = 21
+  atk = 22
   speed = 59
   def = 14
   speDef = 10
@@ -640,7 +640,7 @@ export class Kleavor extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 4
   hp = 170
-  atk = 21
+  atk = 22
   speed = 59
   def = 14
   speDef = 10
@@ -684,7 +684,7 @@ export class Steenee extends Pokemon {
   stars = 2
   evolution = Pkm.TSAREENA
   hp = 180
-  atk = 21
+  atk = 19
   speed = 48
   def = 10
   speDef = 10
@@ -703,7 +703,7 @@ export class Tsareena extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 360
-  atk = 36
+  atk = 33
   speed = 48
   def = 12
   speDef = 12
@@ -752,7 +752,7 @@ export class MegaLopunny extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 250
-  atk = 25
+  atk = 26
   speed = 59
   def = 10
   speDef = 10
@@ -770,7 +770,7 @@ export class Onix extends Pokemon {
   stars = 1
   evolution = Pkm.STEELIX
   hp = 100
-  atk = 9
+  atk = 7
   speed = 35
   def = 20
   speDef = 8
@@ -787,7 +787,7 @@ export class Steelix extends Pokemon {
   stars = 2
   //evolution = Pkm.MEGA_STEELIX
   hp = 200
-  atk = 18
+  atk = 13
   speed = 35
   def = 40
   speDef = 10
@@ -803,7 +803,7 @@ export class MegaSteelix extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 350
-  atk = 30
+  atk = 22
   speed = 35
   def = 60
   speDef = 30
@@ -821,7 +821,7 @@ export class Numel extends Pokemon {
   stars = 1
   evolution = Pkm.CAMERUPT
   hp = 120
-  atk = 12
+  atk = 10
   speed = 38
   def = 6
   speDef = 6
@@ -838,7 +838,7 @@ export class Camerupt extends Pokemon {
   stars = 2
   //evolution = Pkm.MEGA_CAMERUPT
   hp = 210
-  atk = 19
+  atk = 15
   speed = 38
   def = 14
   speDef = 14
@@ -854,7 +854,7 @@ export class MegaCamerupt extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 330
-  atk = 30
+  atk = 24
   speed = 38
   def = 20
   speDef = 20
@@ -896,7 +896,7 @@ export class Medicham extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 160
-  atk = 17
+  atk = 16
   speed = 51
   def = 12
   speDef = 12
@@ -937,7 +937,7 @@ export class Electabuzz extends Pokemon {
   stars = 2
   evolution = Pkm.ELECTIVIRE
   hp = 190
-  atk = 14
+  atk = 15
   speed = 55
   def = 12
   speDef = 12
@@ -956,7 +956,7 @@ export class Electivire extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 350
-  atk = 25
+  atk = 26
   speed = 55
   def = 16
   speDef = 16
@@ -1015,7 +1015,7 @@ export class Garchomp extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 240
-  atk = 27
+  atk = 28
   speed = 58
   def = 12
   speDef = 12
@@ -1055,7 +1055,7 @@ export class Metang extends Pokemon {
   stars = 2
   evolution = Pkm.METAGROSS
   hp = 190
-  atk = 10
+  atk = 9
   speed = 47
   def = 12
   speDef = 12
@@ -1074,7 +1074,7 @@ export class Metagross extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 320
-  atk = 21
+  atk = 20
   speed = 47
   def = 16
   speDef = 16
@@ -1117,7 +1117,7 @@ export class Palpitoad extends Pokemon {
   evolution = Pkm.SEISMITOAD
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 130
-  atk = 17
+  atk = 16
   speed = 49
   def = 8
   speDef = 8
@@ -1137,7 +1137,7 @@ export class Seismitoad extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 210
-  atk = 22
+  atk = 21
   speed = 49
   def = 12
   speDef = 12
@@ -1169,7 +1169,7 @@ export class Shelgon extends Pokemon {
   stars = 2
   evolution = Pkm.SALAMENCE
   hp = 130
-  atk = 10
+  atk = 11
   speed = 57
   def = 10
   speDef = 6
@@ -1188,7 +1188,7 @@ export class Salamence extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 210
-  atk = 19
+  atk = 20
   speed = 57
   def = 10
   speDef = 6
@@ -1228,7 +1228,7 @@ export class Kirlia extends Pokemon {
   stars = 2
   evolution = Pkm.GARDEVOIR
   hp = 130
-  atk = 13
+  atk = 12
   speed = 51
   def = 6
   speDef = 10
@@ -1247,7 +1247,7 @@ export class Gardevoir extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 230
-  atk = 27
+  atk = 26
   speed = 51
   def = 8
   speDef = 16
@@ -1279,7 +1279,7 @@ export class Crocalor extends Pokemon {
   stars = 2
   evolution = Pkm.SKELEDIRGE
   hp = 170
-  atk = 14
+  atk = 13
   speed = 46
   def = 6
   speDef = 4
@@ -1294,7 +1294,7 @@ export class Skeledirge extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 350
-  atk = 26
+  atk = 24
   speed = 46
   def = 8
   speDef = 6
@@ -1390,7 +1390,7 @@ export class Slaking extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 380
-  atk = 29
+  atk = 30
   speed = 57
   def = 14
   speDef = 10
@@ -1411,7 +1411,7 @@ export class Honedge extends Pokemon {
   stars = 1
   evolution = Pkm.DOUBLADE
   hp = 85
-  atk = 7
+  atk = 6
   speed = 44
   def = 6
   speDef = 6
@@ -1431,7 +1431,7 @@ export class Doublade extends Pokemon {
   stars = 2
   evolution = Pkm.AEGISLASH
   hp = 130
-  atk = 15
+  atk = 13
   speed = 44
   def = 10
   speDef = 10
@@ -1450,7 +1450,7 @@ export class Aegislash extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 230
-  atk = 26
+  atk = 23
   speed = 44
   def = 14
   speDef = 14
@@ -1470,7 +1470,7 @@ export class AegislashBlade extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 230
-  atk = 38
+  atk = 34
   speed = 44
   def = 4
   speDef = 4
@@ -1491,7 +1491,7 @@ export class Oshawott extends Pokemon {
   stars = 1
   evolution = Pkm.DEWOTT
   hp = 90
-  atk = 9
+  atk = 8
   speed = 47
   def = 8
   speDef = 8
@@ -1511,7 +1511,7 @@ export class Dewott extends Pokemon {
   stars = 2
   evolution = Pkm.SAMUROTT
   hp = 150
-  atk = 16
+  atk = 15
   speed = 47
   def = 12
   speDef = 12
@@ -1530,7 +1530,7 @@ export class Samurott extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 260
-  atk = 34
+  atk = 32
   speed = 47
   def = 16
   speDef = 16
@@ -1546,7 +1546,7 @@ export class Larvitar extends Pokemon {
   stars = 1
   evolution = Pkm.PUPITAR
   hp = 75
-  atk = 8
+  atk = 7
   speed = 45
   def = 8
   speDef = 4
@@ -1562,7 +1562,7 @@ export class Pupitar extends Pokemon {
   stars = 2
   evolution = Pkm.TYRANITAR
   hp = 130
-  atk = 16
+  atk = 14
   speed = 45
   def = 12
   speDef = 8
@@ -1577,7 +1577,7 @@ export class Tyranitar extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 210
-  atk = 31
+  atk = 28
   speed = 45
   def = 16
   speDef = 10
@@ -1638,7 +1638,7 @@ export class KommoO extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 280
-  atk = 24
+  atk = 23
   speed = 52
   def = 16
   speDef = 16
@@ -1659,11 +1659,11 @@ export class Gastly extends Pokemon {
   stars = 1
   evolution = Pkm.HAUNTER
   hp = 90
-  atk = 11
+  atk = 12
   speed = 60
   def = 6
   speDef = 6
-  maxPP = 60
+  maxPP = 80
   range = 2
   skill = Ability.NIGHTMARE
   attackSprite = AttackSprite.GHOST_RANGE
@@ -1679,11 +1679,11 @@ export class Haunter extends Pokemon {
   stars = 2
   evolution = Pkm.GENGAR
   hp = 180
-  atk = 20
+  atk = 22
   speed = 60
   def = 8
   speDef = 6
-  maxPP = 60
+  maxPP = 80
   range = 2
   skill = Ability.NIGHTMARE
   attackSprite = AttackSprite.GHOST_RANGE
@@ -1698,11 +1698,11 @@ export class Gengar extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 350
-  atk = 33
+  atk = 35
   speed = 60
   def = 10
   speDef = 6
-  maxPP = 60
+  maxPP = 80
   range = 2
   skill = Ability.NIGHTMARE
   attackSprite = AttackSprite.GHOST_RANGE
@@ -1745,7 +1745,7 @@ export class Alakazam extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 230
-  atk = 17
+  atk = 19
   speed = 63
   def = 8
   speDef = 16
@@ -1792,7 +1792,7 @@ export class Chandelure extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 160
-  atk = 15
+  atk = 14
   speed = 51
   def = 2
   speDef = 2
@@ -1874,7 +1874,7 @@ export class Porygon extends Pokemon {
   stars = 1
   evolution = Pkm.PORYGON_2
   hp = 100
-  atk = 9
+  atk = 13
   speed = 54
   def = 12
   speDef = 12
@@ -1892,7 +1892,7 @@ export class Porygon2 extends Pokemon {
   stars = 2
   evolution = Pkm.PORYGON_Z
   hp = 200
-  atk = 17
+  atk = 23
   speed = 54
   def = 16
   speDef = 16
@@ -1909,7 +1909,7 @@ export class PorygonZ extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 300
-  atk = 32
+  atk = 33
   speed = 54
   def = 16
   speDef = 16
@@ -1974,7 +1974,7 @@ export class Turtwig extends Pokemon {
   stars = 1
   evolution = Pkm.GROTLE
   hp = 80
-  atk = 6
+  atk = 5
   speed = 43
   def = 6
   speDef = 6
@@ -1990,7 +1990,7 @@ export class Grotle extends Pokemon {
   stars = 2
   evolution = Pkm.TORTERRA
   hp = 150
-  atk = 11
+  atk = 9
   speed = 43
   def = 10
   speDef = 8
@@ -2005,7 +2005,7 @@ export class Torterra extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 280
-  atk = 24
+  atk = 21
   speed = 43
   def = 14
   speDef = 10
@@ -2062,7 +2062,7 @@ export class Hydreigon extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 230
-  atk = 19
+  atk = 20
   speed = 56
   def = 8
   speDef = 8
@@ -2214,7 +2214,7 @@ export class Magmortar extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 280
-  atk = 29
+  atk = 28
   speed = 52
   def = 6
   speDef = 8
@@ -2230,11 +2230,11 @@ export class Solosis extends Pokemon {
   stars = 1
   evolution = Pkm.DUOSION
   hp = 100
-  atk = 7
+  atk = 6
   speed = 35
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 2
   skill = Ability.PSYCHIC
   attackSprite = AttackSprite.PSYCHIC_RANGE
@@ -2246,11 +2246,11 @@ export class Duosion extends Pokemon {
   stars = 2
   evolution = Pkm.REUNICLUS
   hp = 200
-  atk = 13
+  atk = 10
   speed = 35
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 2
   skill = Ability.PSYCHIC
   attackSprite = AttackSprite.PSYCHIC_RANGE
@@ -2261,11 +2261,11 @@ export class Reuniclus extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 300
-  atk = 27
+  atk = 20
   speed = 35
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 2
   skill = Ability.PSYCHIC
   attackSprite = AttackSprite.PSYCHIC_RANGE
@@ -2281,7 +2281,7 @@ export class Shinx extends Pokemon {
   stars = 1
   evolution = Pkm.LUXIO
   hp = 120
-  atk = 14
+  atk = 13
   speed = 47
   def = 10
   speDef = 10
@@ -2301,7 +2301,7 @@ export class Luxio extends Pokemon {
   stars = 2
   evolution = Pkm.LUXRAY
   hp = 210
-  atk = 28
+  atk = 26
   speed = 47
   def = 12
   speDef = 12
@@ -2320,7 +2320,7 @@ export class Luxray extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 300
-  atk = 45
+  atk = 41
   speed = 47
   def = 14
   speDef = 14
@@ -2344,7 +2344,7 @@ export class Cubone extends Pokemon {
     }
   )
   hp = 110
-  atk = 14
+  atk = 11
   speed = 36
   def = 8
   speDef = 8
@@ -2360,7 +2360,7 @@ export class Marowak extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 250
-  atk = 29
+  atk = 22
   speed = 36
   def = 12
   speDef = 10
@@ -2376,7 +2376,7 @@ export class AlolanMarowak extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 250
-  atk = 29
+  atk = 22
   speed = 36
   def = 12
   speDef = 10
@@ -2476,7 +2476,7 @@ export class Dragonair extends Pokemon {
   stars = 2
   evolution = Pkm.DRAGONITE
   hp = 120
-  atk = 13
+  atk = 12
   speed = 51
   def = 10
   speDef = 10
@@ -2495,7 +2495,7 @@ export class Dragonite extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 250
-  atk = 23
+  atk = 22
   speed = 51
   def = 12
   speDef = 12
@@ -2523,7 +2523,7 @@ export class Goomy extends Pokemon {
     }
   )
   hp = 90
-  atk = 8
+  atk = 6
   speed = 38
   def = 8
   speDef = 12
@@ -2543,7 +2543,7 @@ export class Sligoo extends Pokemon {
   stars = 2
   evolution = Pkm.GOODRA
   hp = 160
-  atk = 16
+  atk = 13
   speed = 38
   def = 10
   speDef = 14
@@ -2562,7 +2562,7 @@ export class Goodra extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 300
-  atk = 35
+  atk = 28
   speed = 38
   def = 12
   speDef = 20
@@ -2582,7 +2582,7 @@ export class HisuiSliggoo extends Pokemon {
   stars = 2
   evolution = Pkm.HISUI_GOODRA
   hp = 160
-  atk = 16
+  atk = 13
   speed = 38
   def = 14
   speDef = 10
@@ -2606,7 +2606,7 @@ export class HisuiGoodra extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 300
-  atk = 35
+  atk = 28
   speed = 38
   def = 20
   speDef = 12
@@ -2652,7 +2652,7 @@ export class Lombre extends Pokemon {
   stars = 2
   evolution = Pkm.LUDICOLO
   hp = 110
-  atk = 13
+  atk = 12
   speed = 47
   def = 4
   speDef = 4
@@ -2672,7 +2672,7 @@ export class Ludicolo extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 220
-  atk = 24
+  atk = 22
   speed = 47
   def = 6
   speDef = 6
@@ -2709,7 +2709,7 @@ export class Togetic extends Pokemon {
   stars = 2
   evolution = Pkm.TOGEKISS
   hp = 150
-  atk = 11
+  atk = 10
   speed = 51
   def = 2
   speDef = 2
@@ -2748,7 +2748,7 @@ export class Rhyhorn extends Pokemon {
   stars = 1
   evolution = Pkm.RHYDON
   hp = 120
-  atk = 18
+  atk = 14
   speed = 38
   def = 12
   speDef = 4
@@ -2768,7 +2768,7 @@ export class Rhydon extends Pokemon {
   stars = 2
   evolution = Pkm.RHYPERIOR
   hp = 240
-  atk = 29
+  atk = 23
   speed = 38
   def = 20
   speDef = 6
@@ -2787,7 +2787,7 @@ export class Rhyperior extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 380
-  atk = 45
+  atk = 36
   speed = 38
   def = 30
   speDef = 8
@@ -2803,7 +2803,7 @@ export class Aron extends Pokemon {
   stars = 1
   evolution = Pkm.LAIRON
   hp = 60
-  atk = 5
+  atk = 4
   speed = 41
   def = 4
   speDef = 4
@@ -2819,7 +2819,7 @@ export class Lairon extends Pokemon {
   stars = 2
   evolution = Pkm.AGGRON
   hp = 100
-  atk = 11
+  atk = 9
   speed = 41
   def = 8
   speDef = 6
@@ -2834,7 +2834,7 @@ export class Aggron extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 170
-  atk = 24
+  atk = 20
   speed = 41
   def = 12
   speDef = 10
@@ -2865,7 +2865,7 @@ export class Loudred extends Pokemon {
   stars = 2
   evolution = Pkm.EXPLOUD
   hp = 150
-  atk = 15
+  atk = 14
   speed = 47
   def = 4
   speDef = 4
@@ -2880,7 +2880,7 @@ export class Exploud extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 300
-  atk = 26
+  atk = 24
   speed = 47
   def = 6
   speDef = 6
@@ -2927,7 +2927,7 @@ export class Mamoswine extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 14
+  atk = 13
   speed = 51
   def = 16
   speDef = 12
@@ -2943,7 +2943,7 @@ export class Snover extends Pokemon {
   stars = 1
   evolution = Pkm.ABOMASNOW
   hp = 90
-  atk = 12
+  atk = 10
   speed = 44
   def = 6
   speDef = 6
@@ -2960,7 +2960,7 @@ export class Abomasnow extends Pokemon {
   stars = 2
   //evolution = Pkm.MEGA_ABOMASNOW
   hp = 180
-  atk = 23
+  atk = 20
   speed = 44
   def = 10
   speDef = 10
@@ -2976,7 +2976,7 @@ export class MegaAbomasnow extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 300
-  atk = 35
+  atk = 30
   speed = 44
   def = 14
   speDef = 14
@@ -2994,11 +2994,11 @@ export class Snorunt extends Pokemon {
   stars = 1
   evolution = Pkm.GLALIE
   hp = 90
-  atk = 8
+  atk = 9
   speed = 60
   def = 4
   speDef = 4
-  maxPP = 110
+  maxPP = 100
   range = 3
   skill = Ability.ICY_WIND
   attackSprite = AttackSprite.GHOST_RANGE
@@ -3010,11 +3010,11 @@ export class Glalie extends Pokemon {
   stars = 2
   evolution = Pkm.FROSLASS
   hp = 170
-  atk = 16
+  atk = 17
   speed = 60
   def = 6
   speDef = 6
-  maxPP = 100
+  maxPP = 90
   range = 3
   skill = Ability.ICY_WIND
   attackSprite = AttackSprite.GHOST_RANGE
@@ -3025,11 +3025,11 @@ export class Froslass extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 320
-  atk = 30
+  atk = 31
   speed = 60
   def = 8
   speDef = 8
-  maxPP = 90
+  maxPP = 80
   range = 3
   skill = Ability.ICY_WIND
   attackSprite = AttackSprite.GHOST_RANGE
@@ -3084,7 +3084,7 @@ export class Vanilluxe extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 230
-  atk = 21
+  atk = 20
   speed = 50
   def = 4
   speDef = 4
@@ -3116,7 +3116,7 @@ export class Vibrava extends Pokemon {
   stars = 2
   evolution = Pkm.FLYGON
   hp = 120
-  atk = 11
+  atk = 12
   speed = 57
   def = 8
   speDef = 8
@@ -3247,7 +3247,7 @@ export class Ivysaur extends Pokemon {
   stars = 2
   evolution = Pkm.VENUSAUR
   hp = 130
-  atk = 10
+  atk = 9
   speed = 51
   def = 8
   speDef = 8
@@ -3262,7 +3262,7 @@ export class Venusaur extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 240
-  atk = 18
+  atk = 17
   speed = 51
   def = 12
   speDef = 12
@@ -3278,11 +3278,11 @@ export class Igglybuff extends Pokemon {
   stars = 1
   evolution = Pkm.JIGGLYPUFF
   hp = 65
-  atk = 7
+  atk = 5
   speed = 39
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 2
   skill = Ability.SLEEP
   attackSprite = AttackSprite.SOUND_RANGE
@@ -3294,11 +3294,11 @@ export class Jigglypuff extends Pokemon {
   stars = 2
   evolution = Pkm.WIGGLYTUFF
   hp = 120
-  atk = 12
+  atk = 10
   speed = 39
   def = 4
   speDef = 4
-  maxPP = 80
+  maxPP = 90
   range = 2
   skill = Ability.SLEEP
   attackSprite = AttackSprite.SOUND_RANGE
@@ -3309,11 +3309,11 @@ export class Wigglytuff extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 250
-  atk = 24
+  atk = 19
   speed = 39
   def = 6
   speDef = 6
-  maxPP = 80
+  maxPP = 90
   range = 2
   skill = Ability.SLEEP
   attackSprite = AttackSprite.SOUND_RANGE
@@ -3325,11 +3325,11 @@ export class Duskull extends Pokemon {
   stars = 1
   evolution = Pkm.DUSCLOPS
   hp = 70
-  atk = 8
+  atk = 6
   speed = 39
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.SHADOW_BALL
   attackSprite = AttackSprite.GHOST_RANGE
@@ -3341,11 +3341,11 @@ export class Dusclops extends Pokemon {
   stars = 2
   evolution = Pkm.DUSKNOIR
   hp = 150
-  atk = 15
+  atk = 12
   speed = 39
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.SHADOW_BALL
   attackSprite = AttackSprite.GHOST_RANGE
@@ -3356,11 +3356,11 @@ export class Dusknoir extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 240
-  atk = 32
+  atk = 26
   speed = 39
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.SHADOW_BALL
   attackSprite = AttackSprite.GHOST_RANGE
@@ -3372,7 +3372,7 @@ export class Magnemite extends Pokemon {
   stars = 1
   evolution = Pkm.MAGNETON
   hp = 80
-  atk = 6
+  atk = 5
   speed = 44
   def = 2
   speDef = 2
@@ -3388,7 +3388,7 @@ export class Magneton extends Pokemon {
   stars = 2
   evolution = Pkm.MAGNEZONE
   hp = 150
-  atk = 10
+  atk = 9
   speed = 44
   def = 2
   speDef = 2
@@ -3403,7 +3403,7 @@ export class Magnezone extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 250
-  atk = 23
+  atk = 20
   speed = 44
   def = 4
   speDef = 4
@@ -3496,7 +3496,7 @@ export class Florges extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 210
-  atk = 20
+  atk = 19
   speed = 49
   def = 4
   speDef = 14
@@ -3528,7 +3528,7 @@ export class Bayleef extends Pokemon {
   stars = 2
   evolution = Pkm.MEGANIUM
   hp = 140
-  atk = 12
+  atk = 11
   speed = 51
   def = 2
   speDef = 2
@@ -3575,7 +3575,7 @@ export class Whirlipede extends Pokemon {
   stars = 2
   evolution = Pkm.SCOLIPEDE
   hp = 120
-  atk = 7
+  atk = 8
   speed = 61
   def = 6
   speDef = 4
@@ -3590,7 +3590,7 @@ export class Scolipede extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 210
-  atk = 16
+  atk = 17
   speed = 61
   def = 6
   speDef = 6
@@ -3606,7 +3606,7 @@ export class Spheal extends Pokemon {
   stars = 1
   evolution = Pkm.SEALEO
   hp = 80
-  atk = 7
+  atk = 6
   speed = 46
   def = 6
   speDef = 4
@@ -3622,7 +3622,7 @@ export class Sealeo extends Pokemon {
   stars = 2
   evolution = Pkm.WALREIN
   hp = 150
-  atk = 13
+  atk = 12
   speed = 46
   def = 6
   speDef = 4
@@ -3637,7 +3637,7 @@ export class Walrein extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 300
-  atk = 26
+  atk = 24
   speed = 46
   def = 6
   speDef = 6
@@ -3696,7 +3696,7 @@ export class Nidoqueen extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 230
-  atk = 21
+  atk = 20
   speed = 49
   def = 8
   speDef = 8
@@ -3737,7 +3737,7 @@ export class Nidorino extends Pokemon {
   stars = 2
   evolution = Pkm.NIDOKING
   hp = 140
-  atk = 10
+  atk = 9
   speed = 52
   def = 4
   speDef = 4
@@ -3774,7 +3774,7 @@ export class Machop extends Pokemon {
   stars = 1
   evolution = Pkm.MACHOKE
   hp = 70
-  atk = 7
+  atk = 6
   speed = 43
   def = 6
   speDef = 6
@@ -3790,7 +3790,7 @@ export class Machoke extends Pokemon {
   stars = 2
   evolution = Pkm.MACHAMP
   hp = 130
-  atk = 14
+  atk = 12
   speed = 43
   def = 8
   speDef = 8
@@ -3805,7 +3805,7 @@ export class Machamp extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 220
-  atk = 26
+  atk = 23
   speed = 43
   def = 10
   speDef = 10
@@ -3821,7 +3821,7 @@ export class Piplup extends Pokemon {
   stars = 1
   evolution = Pkm.PRINPLUP
   hp = 60
-  atk = 6
+  atk = 5
   speed = 44
   def = 6
   speDef = 6
@@ -3837,7 +3837,7 @@ export class Prinplup extends Pokemon {
   stars = 2
   evolution = Pkm.EMPOLEON
   hp = 130
-  atk = 10
+  atk = 9
   speed = 44
   def = 8
   speDef = 8
@@ -3852,7 +3852,7 @@ export class Empoleon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 240
-  atk = 23
+  atk = 20
   speed = 44
   def = 10
   speDef = 10
@@ -3893,7 +3893,7 @@ export class Monferno extends Pokemon {
   stars = 2
   evolution = Pkm.INFERNAPE
   hp = 100
-  atk = 9
+  atk = 10
   speed = 60
   def = 4
   speDef = 4
@@ -3913,7 +3913,7 @@ export class Infernape extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 180
-  atk = 18
+  atk = 19
   speed = 60
   def = 4
   speDef = 4
@@ -3930,7 +3930,7 @@ export class Mudkip extends Pokemon {
   stars = 1
   evolution = Pkm.MARSHTOMP
   hp = 65
-  atk = 6
+  atk = 5
   speed = 44
   def = 4
   speDef = 4
@@ -3953,7 +3953,7 @@ export class Marshtomp extends Pokemon {
   stars = 2
   evolution = Pkm.SWAMPERT
   hp = 130
-  atk = 10
+  atk = 9
   speed = 44
   def = 6
   speDef = 6
@@ -3975,7 +3975,7 @@ export class Swampert extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 23
+  atk = 20
   speed = 44
   def = 10
   speDef = 10
@@ -4022,7 +4022,7 @@ export class Combusken extends Pokemon {
   stars = 2
   evolution = Pkm.BLAZIKEN
   hp = 150
-  atk = 12
+  atk = 11
   speed = 51
   def = 8
   speDef = 8
@@ -4073,7 +4073,7 @@ export class Grovyle extends Pokemon {
   stars = 2
   evolution = Pkm.SCEPTILE
   hp = 120
-  atk = 11
+  atk = 12
   speed = 63
   def = 6
   speDef = 6
@@ -4088,7 +4088,7 @@ export class Sceptile extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 210
-  atk = 21
+  atk = 23
   speed = 63
   def = 10
   speDef = 10
@@ -4128,7 +4128,7 @@ export class Quilava extends Pokemon {
     }
   )
   hp = 120
-  atk = 13
+  atk = 12
   speed = 51
   def = 4
   speDef = 4
@@ -4180,7 +4180,7 @@ export class Slowpoke extends Pokemon {
   stars = 1
   evolution = Pkm.SLOWBRO
   hp = 80
-  atk = 9
+  atk = 7
   speed = 35
   def = 6
   speDef = 4
@@ -4197,7 +4197,7 @@ export class Slowbro extends Pokemon {
   stars = 2
   evolution = Pkm.SLOWKING
   hp = 160
-  atk = 16
+  atk = 12
   speed = 35
   def = 10
   speDef = 6
@@ -4213,7 +4213,7 @@ export class Slowking extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 260
-  atk = 36
+  atk = 27
   speed = 35
   def = 12
   speDef = 8
@@ -4296,7 +4296,7 @@ export class Blastoise extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 190
-  atk = 20
+  atk = 19
   speed = 50
   def = 4
   speDef = 4
@@ -4331,7 +4331,7 @@ export class Weepinbell extends Pokemon {
   evolution = Pkm.VICTREEBEL
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 160
-  atk = 13
+  atk = 12
   speed = 47
   def = 6
   speDef = 6
@@ -4347,7 +4347,7 @@ export class Victreebel extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 240
-  atk = 21
+  atk = 20
   speed = 47
   def = 8
   speDef = 8
@@ -4367,7 +4367,7 @@ export class Victreebel extends Pokemon {
   stars = 1
   evolution = Pkm.TRUMBEAK
   hp = 70
-  atk = 6
+  atk = 5
   speed = 44
   def = 4
   speDef = 4
@@ -4387,7 +4387,7 @@ export class Trumbeak extends Pokemon {
   stars = 2
   evolution = Pkm.TOUCANNON
   hp = 120
-  atk = 10
+  atk = 9
   speed = 44
   def = 6
   speDef = 6
@@ -4406,7 +4406,7 @@ export class Toucannon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 210
-  atk = 23
+  atk = 20
   speed = 44
   def = 8
   speDef = 8
@@ -4422,7 +4422,7 @@ export class Geodude extends Pokemon {
   stars = 1
   evolution = Pkm.GRAVELER
   hp = 70
-  atk = 5
+  atk = 4
   speed = 39
   def = 4
   speDef = 4
@@ -4438,7 +4438,7 @@ export class Graveler extends Pokemon {
   stars = 2
   evolution = Pkm.GOLEM
   hp = 120
-  atk = 12
+  atk = 10
   speed = 39
   def = 8
   speDef = 8
@@ -4453,7 +4453,7 @@ export class Golem extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 21
+  atk = 17
   speed = 39
   def = 12
   speDef = 12
@@ -4493,7 +4493,7 @@ export class Croconaw extends Pokemon {
   stars = 2
   evolution = Pkm.FERALIGATR
   hp = 130
-  atk = 15
+  atk = 14
   speed = 50
   def = 6
   speDef = 6
@@ -4512,7 +4512,7 @@ export class Feraligatr extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 240
-  atk = 28
+  atk = 27
   speed = 50
   def = 10
   speDef = 10
@@ -4528,11 +4528,11 @@ export class Azurill extends Pokemon {
   stars = 1
   evolution = Pkm.MARILL
   hp = 50
-  atk = 6
+  atk = 5
   speed = 41
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.PLAY_ROUGH
   attackSprite = AttackSprite.WATER_RANGE
@@ -4544,11 +4544,11 @@ export class Marill extends Pokemon {
   stars = 2
   evolution = Pkm.AZUMARILL
   hp = 110
-  atk = 11
+  atk = 9
   speed = 41
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.PLAY_ROUGH
   attackSprite = AttackSprite.WATER_RANGE
@@ -4559,11 +4559,11 @@ export class Azumarill extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 25
+  atk = 21
   speed = 41
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.PLAY_ROUGH
   attackSprite = AttackSprite.WATER_RANGE
@@ -4618,7 +4618,7 @@ export class Crobat extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 13
+  atk = 15
   speed = 67
   def = 2
   speDef = 2
@@ -4638,7 +4638,7 @@ export class Mareep extends Pokemon {
   stars = 1
   evolution = Pkm.FLAFFY
   hp = 60
-  atk = 6
+  atk = 5
   speed = 43
   def = 2
   speDef = 2
@@ -4658,7 +4658,7 @@ export class Flaffy extends Pokemon {
   stars = 2
   evolution = Pkm.AMPHAROS
   hp = 110
-  atk = 11
+  atk = 9
   speed = 43
   def = 2
   speDef = 2
@@ -4677,7 +4677,7 @@ export class Ampharos extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 220
-  atk = 21
+  atk = 18
   speed = 43
   def = 2
   speDef = 2
@@ -4693,7 +4693,7 @@ export class Cleffa extends Pokemon {
   stars = 1
   evolution = Pkm.CLEFAIRY
   hp = 70
-  atk = 6
+  atk = 5
   speed = 44
   def = 2
   speDef = 2
@@ -4717,7 +4717,7 @@ export class Clefairy extends Pokemon {
   stars = 2
   evolution = Pkm.CLEFABLE
   hp = 150
-  atk = 13
+  atk = 11
   speed = 44
   def = 6
   speDef = 6
@@ -4740,7 +4740,7 @@ export class Clefable extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 220
-  atk = 21
+  atk = 18
   speed = 44
   def = 8
   speDef = 8
@@ -4780,7 +4780,7 @@ export class Metapod extends Pokemon {
   stars = 2
   evolution = Pkm.BUTTERFREE
   hp = 110
-  atk = 10
+  atk = 9
   speed = 47
   def = 6
   speDef = 2
@@ -4795,7 +4795,7 @@ export class Butterfree extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 180
-  atk = 17
+  atk = 16
   speed = 47
   def = 4
   speDef = 6
@@ -4842,7 +4842,7 @@ export class Beedrill extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 170
-  atk = 18
+  atk = 17
   speed = 49
   def = 4
   speDef = 4
@@ -4921,7 +4921,7 @@ export class Skiploom extends Pokemon {
   stars = 2
   evolution = Pkm.JUMPLUFF
   hp = 110
-  atk = 7
+  atk = 8
   speed = 60
   def = 2
   speDef = 2
@@ -4936,7 +4936,7 @@ export class Jumpluff extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 220
-  atk = 15
+  atk = 16
   speed = 60
   def = 2
   speDef = 2
@@ -4968,7 +4968,7 @@ export class Nuzleaf extends Pokemon {
   stars = 2
   evolution = Pkm.SHIFTRY
   hp = 120
-  atk = 10
+  atk = 9
   speed = 51
   def = 6
   speDef = 6
@@ -4983,7 +4983,7 @@ export class Shiftry extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 22
+  atk = 21
   speed = 51
   def = 8
   speDef = 8
@@ -5030,7 +5030,7 @@ export class Charizard extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 220
-  atk = 17
+  atk = 18
   speed = 57
   def = 4
   speDef = 4
@@ -5067,7 +5067,7 @@ export class Gyarados extends Pokemon {
   rarity = Rarity.SPECIAL
   stars = 3
   hp = 300
-  atk = 29
+  atk = 28
   speed = 51
   def = 10
   speDef = 2
@@ -5137,7 +5137,7 @@ export class AlolanRaticate extends Pokemon {
   rarity = Rarity.COMMON
   stars = 2
   hp = 130
-  atk = 15
+  atk = 14
   speed = 50
   def = 4
   speDef = 4
@@ -5158,7 +5158,7 @@ export class Spearow extends Pokemon {
   stars = 1
   evolution = Pkm.FEAROW
   hp = 50
-  atk = 3
+  atk = 4
   speed = 57
   def = 2
   speDef = 2
@@ -5242,7 +5242,7 @@ export class Lugia extends Pokemon {
   evolutionRule = new ItemEvolutionRule([Item.DUSK_STONE])
   stars = 3
   hp = 300
-  atk = 25
+  atk = 26
   speed = 60
   def = 12
   speDef = 12
@@ -5263,7 +5263,7 @@ export class ShadowLugia extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 4
   hp = 300
-  atk = 25
+  atk = 26
   speed = 60
   def = 12
   speDef = 12
@@ -5327,7 +5327,7 @@ export class Zapdos extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 26
+  atk = 27
   speed = 57
   def = 6
   speDef = 6
@@ -5343,7 +5343,7 @@ export class GalarianZapdos extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 26
+  atk = 27
   speed = 57
   def = 10
   speDef = 10
@@ -5358,7 +5358,7 @@ export class Zeraora extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 14
+  atk = 16
   speed = 71
   def = 10
   speDef = 10
@@ -5467,7 +5467,7 @@ export class Articuno extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 29
+  atk = 28
   speed = 52
   def = 6
   speDef = 6
@@ -5528,7 +5528,7 @@ export class Melmetal extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 320
-  atk = 46
+  atk = 35
   speed = 36
   def = 14
   speDef = 6
@@ -5544,7 +5544,7 @@ export class Suicune extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 29
+  atk = 28
   speed = 52
   def = 10
   speDef = 10
@@ -5563,7 +5563,7 @@ export class Raikou extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 24
+  atk = 26
   speed = 62
   def = 10
   speDef = 10
@@ -5578,7 +5578,7 @@ export class Entei extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 26
+  atk = 27
   speed = 57
   def = 10
   speDef = 10
@@ -5593,7 +5593,7 @@ export class Regice extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 25
+  atk = 21
   speed = 41
   def = 12
   speDef = 20
@@ -5608,7 +5608,7 @@ export class Seviper extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 24
+  atk = 22
   speed = 46
   def = 8
   speDef = 4
@@ -5623,7 +5623,7 @@ export class Lunatone extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 21
+  atk = 20
   speed = 47
   def = 4
   speDef = 4
@@ -5639,7 +5639,7 @@ export class Solrock extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 21
+  atk = 20
   speed = 47
   def = 4
   speDef = 4
@@ -5655,7 +5655,7 @@ export class Regirock extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 25
+  atk = 21
   speed = 41
   def = 20
   speDef = 12
@@ -5670,7 +5670,7 @@ export class Tauros extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 60
   def = 14
   speDef = 4
@@ -5717,7 +5717,7 @@ export class Registeel extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 31
+  atk = 26
   speed = 41
   def = 12
   speDef = 12
@@ -5736,7 +5736,7 @@ export class Regigigas extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 350
-  atk = 26
+  atk = 30
   speed = 57
   def = 10
   speDef = 10
@@ -5810,7 +5810,7 @@ export class Eevee extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 1
   hp = 90
-  atk = 6
+  atk = 5
   speed = 43
   def = 6
   speDef = 4
@@ -5869,7 +5869,7 @@ export class Vaporeon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5884,7 +5884,7 @@ export class Jolteon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5899,7 +5899,7 @@ export class Flareon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5914,7 +5914,7 @@ export class Espeon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5929,7 +5929,7 @@ export class Umbreon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5944,7 +5944,7 @@ export class Leafeon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5959,7 +5959,7 @@ export class Sylveon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5974,7 +5974,7 @@ export class Glaceon extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 12
   speed = 43
   def = 6
   speDef = 4
@@ -5989,7 +5989,7 @@ export class Volcanion extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 21
+  atk = 20
   speed = 47
   def = 8
   speDef = 6
@@ -6008,11 +6008,11 @@ export class Darkrai extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 250
-  atk = 20
+  atk = 22
   speed = 65
   def = 4
   speDef = 4
-  maxPP = 130
+  maxPP = 120
   range = 2
   skill = Ability.DARK_VOID
   attackSprite = AttackSprite.DARK_RANGE
@@ -6024,7 +6024,7 @@ export class Larvesta extends Pokemon {
   stars = 1
   evolution = Pkm.VOLCARONA
   hp = 100
-  atk = 10
+  atk = 11
   speed = 57
   def = 4
   speDef = 4
@@ -6107,7 +6107,7 @@ export class Kecleon extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 27
+  atk = 22
   speed = 38
   def = 6
   speDef = 6
@@ -6139,7 +6139,7 @@ export class Castform extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 19
+  atk = 18
   speed = 47
   def = 6
   speDef = 6
@@ -6166,7 +6166,7 @@ export class CastformSun extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 19
+  atk = 18
   speed = 47
   def = 6
   speDef = 6
@@ -6193,7 +6193,7 @@ export class CastformRain extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 19
+  atk = 18
   speed = 47
   def = 6
   speDef = 6
@@ -6220,7 +6220,7 @@ export class CastformHail extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 19
+  atk = 18
   speed = 47
   def = 6
   speDef = 6
@@ -6243,7 +6243,7 @@ export class Landorus extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 250
-  atk = 26
+  atk = 27
   speed = 57
   def = 6
   speDef = 6
@@ -6259,11 +6259,11 @@ export class Thundurus extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 250
-  atk = 24
+  atk = 26
   speed = 61
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 80
   range = 3
   skill = Ability.WILDBOLT_STORM
   passive = Passive.THUNDURUS
@@ -6275,11 +6275,11 @@ export class Tornadus extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 250
-  atk = 24
+  atk = 26
   speed = 61
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 80
   range = 3
   skill = Ability.BLEAKWIND_STORM
   passive = Passive.TORNADUS
@@ -6291,7 +6291,7 @@ export class Enamorus extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 250
-  atk = 25
+  atk = 26
   speed = 59
   def = 6
   speDef = 6
@@ -6307,7 +6307,7 @@ export class Keldeo extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 25
+  atk = 26
   speed = 60
   def = 8
   speDef = 8
@@ -6322,7 +6322,7 @@ export class Terrakion extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 28
+  atk = 30
   speed = 60
   def = 8
   speDef = 8
@@ -6337,7 +6337,7 @@ export class Virizion extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 25
+  atk = 26
   speed = 60
   def = 8
   speDef = 16
@@ -6352,7 +6352,7 @@ export class Cobalion extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 25
+  atk = 26
   speed = 60
   def = 16
   speDef = 8
@@ -6371,7 +6371,7 @@ export class Mawile extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 19
+  atk = 16
   speed = 41
   def = 12
   speDef = 12
@@ -6465,11 +6465,11 @@ export class Spiritomb extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 150
-  atk = 29
+  atk = 22
   speed = 36
   def = 4
   speDef = 4
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.SHADOW_BALL
   attackSprite = AttackSprite.DARK_RANGE
@@ -6480,7 +6480,7 @@ export class Absol extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 20
+  atk = 19
   speed = 49
   def = 10
   speDef = 10
@@ -6495,7 +6495,7 @@ export class Delibird extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 20
+  atk = 19
   speed = 49
   def = 10
   speDef = 10
@@ -6514,11 +6514,11 @@ export class IronBundle extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 11
+  atk = 13
   speed = 69
   def = 10
   speDef = 4
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.AURORA_BEAM
   attackSprite = AttackSprite.ICE_MELEE
@@ -6529,7 +6529,7 @@ export class Lapras extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 250
-  atk = 14
+  atk = 12
   speed = 44
   def = 10
   speDef = 12
@@ -6544,7 +6544,7 @@ export class Latias extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 120
-  atk = 8
+  atk = 9
   speed = 60
   def = 4
   speDef = 4
@@ -6560,7 +6560,7 @@ export class Latios extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 120
-  atk = 8
+  atk = 9
   speed = 60
   def = 4
   speDef = 4
@@ -6591,7 +6591,7 @@ export class Mesprit extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 15
   speed = 51
   def = 8
   speDef = 8
@@ -6606,7 +6606,7 @@ export class Azelf extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 14
+  atk = 15
   speed = 62
   def = 6
   speDef = 6
@@ -6621,7 +6621,7 @@ export class Mew extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 200
-  atk = 26
+  atk = 27
   speed = 57
   def = 10
   speDef = 10
@@ -6645,7 +6645,7 @@ export class Mewtwo extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 200
-  atk = 22
+  atk = 25
   speed = 67
   def = 10
   speDef = 10
@@ -6660,11 +6660,11 @@ export class Marshadow extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 220
-  atk = 21
+  atk = 23
   speed = 65
   def = 10
   speDef = 10
-  maxPP = 130
+  maxPP = 125
   range = 1
   skill = Ability.SPECTRAL_THIEF
   attackSprite = AttackSprite.FIGHTING_MELEE
@@ -6724,7 +6724,7 @@ export class Celebi extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 26
+  atk = 27
   speed = 57
   def = 10
   speDef = 10
@@ -6740,7 +6740,7 @@ export class Victini extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 26
+  atk = 27
   speed = 57
   def = 10
   speDef = 10
@@ -6763,7 +6763,7 @@ export class Jirachi extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 220
-  atk = 26
+  atk = 27
   speed = 57
   def = 10
   speDef = 10
@@ -6782,7 +6782,7 @@ export class Arceus extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 19
+  atk = 21
   speed = 63
   def = 10
   speDef = 10
@@ -6806,7 +6806,7 @@ export class Deoxys extends Pokemon {
   speed = 73
   def = 10
   speDef = 10
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.PSYCHO_BOOST
   attackSprite = AttackSprite.PSYCHIC_MELEE
@@ -6827,11 +6827,11 @@ export class DeoxysDefense extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 220
-  atk = 13
-  speed = 73
+  atk = 15
+  speed = 45
   def = 16
   speDef = 16
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.PROTECT
   attackSprite = AttackSprite.PSYCHIC_MELEE
@@ -6877,8 +6877,8 @@ export class DeoxysSpeed extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 220
-  atk = 17
-  speed = 73
+  atk = 15
+  speed = 90
   def = 6
   speDef = 6
   maxPP = 60
@@ -6900,7 +6900,7 @@ export class Shaymin extends Pokemon {
   evolution = Pkm.SHAYMIN_SKY
   evolutionRule = new ItemEvolutionRule([Item.GRACIDEA_FLOWER])
   hp = 200
-  atk = 26
+  atk = 25
   speed = 57
   def = 10
   speDef = 10
@@ -6916,11 +6916,11 @@ export class ShayminSky extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 4
   hp = 300
-  atk = 22
+  atk = 28
   speed = 66
-  def = 10
-  speDef = 10
-  maxPP = 110
+  def = 6
+  speDef = 6
+  maxPP = 100
   range = 3
   skill = Ability.SEED_FLARE
   attackSprite = AttackSprite.GRASS_RANGE
@@ -6950,7 +6950,7 @@ export class Heatran extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 280
-  atk = 20
+  atk = 19
   speed = 50
   def = 10
   speDef = 10
@@ -7011,7 +7011,7 @@ export class Cryogonal extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 17
+  atk = 15
   speed = 59
   def = 4
   speDef = 16
@@ -7026,11 +7026,11 @@ export class Drampa extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 250
-  atk = 14
+  atk = 12
   speed = 37
   def = 6
   speDef = 6
-  maxPP = 100
+  maxPP = 90
   range = 3
   skill = Ability.DRAGON_PULSE
   passive = Passive.BERSERK
@@ -7108,7 +7108,7 @@ export class Oddish extends Pokemon {
   stars = 1
   evolution = Pkm.GLOOM
   hp = 90
-  atk = 11
+  atk = 9
   speed = 41
   def = 4
   speDef = 4
@@ -7124,7 +7124,7 @@ export class Gloom extends Pokemon {
   stars = 2
   evolution = Pkm.VILEPLUME
   hp = 160
-  atk = 22
+  atk = 19
   speed = 41
   def = 6
   speDef = 6
@@ -7140,7 +7140,7 @@ export class Vileplume extends Pokemon {
   stars = 3
   evolution = Pkm.BELLOSSOM
   hp = 260
-  atk = 30
+  atk = 25
   speed = 41
   def = 8
   speDef = 8
@@ -7155,7 +7155,7 @@ export class Bellossom extends Pokemon {
   rarity = Rarity.SPECIAL
   stars = 4
   hp = 300
-  atk = 37
+  atk = 30
   speed = 41
   def = 10
   speDef = 10
@@ -7171,7 +7171,7 @@ export class Amaura extends Pokemon {
   stars = 1
   evolution = Pkm.AURORUS
   hp = 130
-  atk = 8
+  atk = 7
   speed = 44
   def = 6
   speDef = 6
@@ -7187,7 +7187,7 @@ export class Aurorus extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 280
-  atk = 21
+  atk = 18
   speed = 44
   def = 10
   speDef = 10
@@ -7204,7 +7204,7 @@ export class Carbink extends Pokemon {
   stars = 1
   evolution = Pkm.DIANCIE
   hp = 125
-  atk = 9
+  atk = 7
   speed = 41
   def = 8
   speDef = 4
@@ -7220,7 +7220,7 @@ export class Diancie extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 300
-  atk = 12
+  atk = 10
   speed = 41
   def = 16
   speDef = 8
@@ -7237,11 +7237,11 @@ export class Sunkern extends Pokemon {
   stars = 1
   evolution = Pkm.SUNFLORA
   hp = 80
-  atk = 12
+  atk = 9
   speed = 35
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.SOLAR_BEAM
   additional = true
@@ -7253,11 +7253,11 @@ export class Sunflora extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 160
-  atk = 27
+  atk = 20
   speed = 35
   def = 10
   speDef = 10
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.SOLAR_BEAM
   additional = true
@@ -7326,7 +7326,7 @@ export class Anorith extends Pokemon {
   stars = 1
   evolution = Pkm.ARMALDO
   hp = 60
-  atk = 8
+  atk = 6
   speed = 39
   def = 4
   speDef = 2
@@ -7342,7 +7342,7 @@ export class Armaldo extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 130
-  atk = 20
+  atk = 16
   speed = 39
   def = 6
   speDef = 4
@@ -7363,7 +7363,7 @@ export class Wynaut extends Pokemon {
   stars = 1
   evolution = Pkm.WOBBUFFET
   hp = 110
-  atk = 10
+  atk = 8
   speed = 36
   def = 4
   speDef = 4
@@ -7384,7 +7384,7 @@ export class Wobbuffet extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 280
-  atk = 26
+  atk = 20
   speed = 36
   def = 8
   speDef = 8
@@ -7410,11 +7410,11 @@ export class Munna extends Pokemon {
   stars = 1
   evolution = Pkm.MUSHARNA
   hp = 80
-  atk = 12
+  atk = 9
   speed = 34
   def = 4
   speDef = 4
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.MOON_DREAM
   passive = Passive.DREAM_CATCHER
@@ -7431,11 +7431,11 @@ export class Musharna extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 240
-  atk = 25
+  atk = 18
   speed = 34
   def = 6
   speDef = 6
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.MOON_DREAM
   passive = Passive.DREAM_CATCHER
@@ -7465,7 +7465,7 @@ export class Archeops extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 130
-  atk = 9
+  atk = 10
   speed = 60
   def = 8
   speDef = 8
@@ -7487,7 +7487,7 @@ export class Gligar extends Pokemon {
   evolution = Pkm.GLISCOR
   evolutionRule = new ItemEvolutionRule([Item.RAZOR_FANG])
   hp = 150
-  atk = 14
+  atk = 15
   speed = 55
   def = 6
   speDef = 6
@@ -7525,7 +7525,7 @@ export class Shieldon extends Pokemon {
   stars = 1
   evolution = Pkm.BASTIODON
   hp = 90
-  atk = 9
+  atk = 7
   speed = 35
   def = 10
   speDef = 6
@@ -7541,7 +7541,7 @@ export class Bastiodon extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 250
-  atk = 15
+  atk = 11
   speed = 35
   def = 16
   speDef = 8
@@ -7558,7 +7558,7 @@ export class Mienfoo extends Pokemon {
   stars = 1
   evolution = Pkm.MIENSHAO
   hp = 80
-  atk = 8
+  atk = 9
   speed = 59
   def = 6
   speDef = 6
@@ -7574,7 +7574,7 @@ export class Mienshao extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 175
-  atk = 17
+  atk = 18
   speed = 59
   def = 8
   speDef = 8
@@ -7591,7 +7591,7 @@ export class Tirtouga extends Pokemon {
   stars = 1
   evolution = Pkm.CARRACOSTA
   hp = 120
-  atk = 10
+  atk = 8
   speed = 35
   def = 8
   speDef = 4
@@ -7607,7 +7607,7 @@ export class Carracosta extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 240
-  atk = 21
+  atk = 16
   speed = 35
   def = 14
   speDef = 8
@@ -7624,11 +7624,11 @@ export class Lileep extends Pokemon {
   stars = 1
   evolution = Pkm.CRADILY
   hp = 70
-  atk = 9
+  atk = 7
   speed = 39
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.LEECH_SEED
   additional = true
@@ -7640,11 +7640,11 @@ export class Cradily extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 150
-  atk = 28
+  atk = 22
   speed = 39
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.LEECH_SEED
   additional = true
@@ -7657,7 +7657,7 @@ export class Cranidos extends Pokemon {
   stars = 1
   evolution = Pkm.RAMPARDOS
   hp = 60
-  atk = 8
+  atk = 7
   speed = 44
   def = 4
   speDef = 2
@@ -7673,7 +7673,7 @@ export class Rampardos extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 160
-  atk = 17
+  atk = 15
   speed = 44
   def = 6
   speDef = 2
@@ -7727,7 +7727,7 @@ export class Omanyte extends Pokemon {
   stars = 1
   evolution = Pkm.OMASTAR
   hp = 70
-  atk = 7
+  atk = 6
   speed = 43
   def = 4
   speDef = 6
@@ -7747,7 +7747,7 @@ export class Omastar extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 17
+  atk = 14
   speed = 43
   def = 6
   speDef = 8
@@ -7766,7 +7766,7 @@ export class Clamperl extends Pokemon {
   rarity = Rarity.EPIC
   stars = 1
   hp = 100
-  atk = 10
+  atk = 8
   speed = 35
   def = 8
   speDef = 4
@@ -7808,11 +7808,11 @@ export class Gorebyss extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 200
-  atk = 24
+  atk = 18
   speed = 35
   def = 10
   speDef = 6
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.HYDRO_PUMP
   passive = Passive.BIVALVE
@@ -7828,7 +7828,7 @@ export class Huntail extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 140
-  atk = 40
+  atk = 30
   speed = 35
   def = 10
   speDef = 6
@@ -7844,7 +7844,7 @@ export class Relicanth extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 220
-  atk = 15
+  atk = 13
   speed = 43
   def = 14
   speDef = 6
@@ -7876,7 +7876,7 @@ export class Tyrantrum extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 19
+  atk = 18
   speed = 48
   def = 12
   speDef = 4
@@ -7892,7 +7892,7 @@ export class Aerodactyl extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 12
+  atk = 14
   speed = 67
   def = 6
   speDef = 6
@@ -7911,7 +7911,7 @@ export class Genesect extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 200
-  atk = 19
+  atk = 20
   speed = 57
   def = 12
   speDef = 6
@@ -7927,7 +7927,7 @@ export class Hatenna extends Pokemon {
   stars = 1
   evolution = Pkm.HATTREM
   hp = 75
-  atk = 9
+  atk = 7
   speed = 34
   def = 4
   speDef = 4
@@ -7943,7 +7943,7 @@ export class Hattrem extends Pokemon {
   stars = 2
   evolution = Pkm.HATTERENE
   hp = 130
-  atk = 17
+  atk = 12
   speed = 34
   def = 8
   speDef = 12
@@ -7958,7 +7958,7 @@ export class Hatterene extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 240
-  atk = 34
+  atk = 25
   speed = 34
   def = 10
   speDef = 16
@@ -8002,7 +8002,7 @@ export class Delphox extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 15
+  atk = 16
   speed = 58
   def = 2
   speDef = 2
@@ -8017,11 +8017,11 @@ export class Regieleki extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 11
+  atk = 14
   speed = 89
   def = 6
   speDef = 6
-  maxPP = 120
+  maxPP = 100
   range = 2
   skill = Ability.THUNDER_CAGE
   attackSprite = AttackSprite.ELECTRIC_RANGE
@@ -8049,7 +8049,7 @@ export class Guzzlord extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 29
+  atk = 25
   speed = 39
   def = 6
   speDef = 6
@@ -8068,11 +8068,11 @@ export class Eternatus extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 16
+  atk = 18
   speed = 67
   def = 16
   speDef = 16
-  maxPP = 130
+  maxPP = 125
   range = 1
   skill = Ability.DYNAMAX_CANNON
   attackSprite = AttackSprite.POISON_MELEE
@@ -8084,7 +8084,7 @@ export class Nincada extends Pokemon {
   stars = 1
   evolution = Pkm.NINJASK
   hp = 130
-  atk = 8
+  atk = 10
   speed = 76
   def = 10
   speDef = 4
@@ -8101,11 +8101,11 @@ export class Ninjask extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 160
-  atk = 11
+  atk = 14
   speed = 76
   def = 10
   speDef = 4
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.AERIAL_ACE
   attackSprite = AttackSprite.BUG_MELEE
@@ -8127,7 +8127,7 @@ export class Shedinja extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 100
-  atk = 24
+  atk = 14
   speed = 38
   def = 0
   speDef = 0
@@ -8145,7 +8145,7 @@ export class Happiny extends Pokemon {
   stars = 1
   evolution = Pkm.CHANSEY
   hp = 150
-  atk = 9
+  atk = 8
   speed = 43
   def = 10
   speDef = 10
@@ -8161,7 +8161,7 @@ export class Chansey extends Pokemon {
   stars = 2
   evolution = Pkm.BLISSEY
   hp = 300
-  atk = 24
+  atk = 21
   speed = 43
   def = 12
   speDef = 20
@@ -8176,7 +8176,7 @@ export class Blissey extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 480
-  atk = 30
+  atk = 26
   speed = 43
   def = 20
   speDef = 30
@@ -8191,11 +8191,11 @@ export class TapuKoko extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 12
+  atk = 14
   speed = 67
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 3
   skill = Ability.ELECTRIC_SURGE
   passive = Passive.ELECTRIC_TERRAIN
@@ -8255,7 +8255,7 @@ export class TapuBulu extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 17
+  atk = 16
   speed = 49
   def = 6
   speDef = 6
@@ -8271,11 +8271,11 @@ export class Stakataka extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 9
+  atk = 6
   speed = 29
   def = 30
   speDef = 30
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.IRON_DEFENSE
   attackSprite = AttackSprite.ROCK_MELEE
@@ -8335,11 +8335,11 @@ export class MegaHoundoom extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 280
-  atk = 34
+  atk = 35
   speed = 55
   def = 16
   speDef = 16
-  maxPP = 130
+  maxPP = 120
   range = 1
   //skill = Ability.BEAT_UP
   skill = Ability.DEFAULT
@@ -8353,7 +8353,7 @@ export class Cacnea extends Pokemon {
   stars = 1
   evolution = Pkm.CACTURNE
   hp = 85
-  atk = 8
+  atk = 7
   speed = 43
   def = 6
   speDef = 2
@@ -8369,7 +8369,7 @@ export class Cacturne extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 24
+  atk = 21
   speed = 43
   def = 12
   speDef = 4
@@ -8401,7 +8401,7 @@ export class Gourgeist extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 190
-  atk = 27
+  atk = 26
   speed = 52
   def = 20
   speDef = 10
@@ -8454,7 +8454,7 @@ export class Noibat extends Pokemon {
   stars = 1
   evolution = Pkm.NOIVERN
   hp = 65
-  atk = 5
+  atk = 6
   speed = 64
   def = 2
   speDef = 2
@@ -8473,7 +8473,7 @@ export class Noivern extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 150
-  atk = 13
+  atk = 14
   speed = 64
   def = 6
   speDef = 6
@@ -8506,7 +8506,7 @@ export class Cloyster extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 12
+  atk = 11
   speed = 47
   def = 16
   speDef = 4
@@ -8527,7 +8527,7 @@ export class Buizel extends Pokemon {
   stars = 1
   evolution = Pkm.FLOATZEL
   hp = 90
-  atk = 7
+  atk = 8
   speed = 62
   def = 6
   speDef = 6
@@ -8546,7 +8546,7 @@ export class Floatzel extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 180
-  atk = 19
+  atk = 21
   speed = 62
   def = 10
   speDef = 10
@@ -8563,7 +8563,7 @@ export class Ponyta extends Pokemon {
   stars = 1
   evolution = Pkm.RAPIDASH
   hp = 90
-  atk = 10
+  atk = 11
   speed = 59
   def = 6
   speDef = 6
@@ -8578,7 +8578,7 @@ export class Rapidash extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 220
-  atk = 20
+  atk = 21
   speed = 59
   def = 10
   speDef = 10
@@ -8619,7 +8619,7 @@ export class GalarianRapidash extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 220
-  atk = 17
+  atk = 18
   speed = 59
   def = 10
   speDef = 10
@@ -8637,7 +8637,7 @@ export class Makuhita extends Pokemon {
   stars = 1
   evolution = Pkm.HARIYAMA
   hp = 80
-  atk = 10
+  atk = 8
   speed = 41
   def = 6
   speDef = 6
@@ -8652,7 +8652,7 @@ export class Hariyama extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 200
-  atk = 27
+  atk = 23
   speed = 41
   def = 10
   speDef = 10
@@ -8724,7 +8724,7 @@ export class Galvantula extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 16
+  atk = 17
   speed = 60
   def = 10
   speDef = 6
@@ -8741,7 +8741,7 @@ export class Paras extends Pokemon {
   stars = 1
   evolution = Pkm.PARASECT
   hp = 90
-  atk = 9
+  atk = 7
   speed = 35
   def = 4
   speDef = 4
@@ -8757,7 +8757,7 @@ export class Parasect extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 24
+  atk = 18
   speed = 35
   def = 6
   speDef = 6
@@ -8774,7 +8774,7 @@ export class Corphish extends Pokemon {
   stars = 1
   evolution = Pkm.CRAWDAUNT
   hp = 85
-  atk = 7
+  atk = 6
   speed = 43
   def = 6
   speDef = 4
@@ -8790,7 +8790,7 @@ export class Crawdaunt extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 160
-  atk = 19
+  atk = 16
   speed = 43
   def = 10
   speDef = 6
@@ -8806,7 +8806,7 @@ export class Meowth extends Pokemon {
   stars = 1
   evolution = Pkm.PERSIAN
   hp = 80
-  atk = 6
+  atk = 7
   speed = 62
   def = 6
   speDef = 6
@@ -8822,7 +8822,7 @@ export class Persian extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 200
-  atk = 16
+  atk = 17
   speed = 62
   def = 6
   speDef = 6
@@ -8839,7 +8839,7 @@ export class AlolanMeowth extends Pokemon {
   stars = 1
   evolution = Pkm.ALOLAN_PERSIAN
   hp = 80
-  atk = 6
+  atk = 7
   speed = 62
   def = 6
   speDef = 6
@@ -8856,7 +8856,7 @@ export class AlolanPersian extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 200
-  atk = 16
+  atk = 17
   speed = 62
   def = 6
   speDef = 6
@@ -8898,7 +8898,7 @@ export class Noctowl extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 170
-  atk = 11
+  atk = 10
   speed = 47
   def = 6
   speDef = 10
@@ -8919,11 +8919,11 @@ export class Munchlax extends Pokemon {
   stars = 1
   evolution = Pkm.SNORLAX
   hp = 120
-  atk = 12
+  atk = 9
   speed = 35
   def = 4
   speDef = 4
-  maxPP = 110
+  maxPP = 120
   range = 1
   skill = Ability.BODY_SLAM
   passive = Passive.GLUTTON
@@ -8940,11 +8940,11 @@ export class Snorlax extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 260
-  atk = 28
+  atk = 21
   speed = 35
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 120
   range = 1
   skill = Ability.BODY_SLAM
   passive = Passive.GLUTTON
@@ -8959,11 +8959,11 @@ export class Poipole extends Pokemon {
   stars = 2
   evolution = Pkm.NAGANADEL
   hp = this.baseHp
-  atk = 9
+  atk = 10
   speed = 64
   def = 6
   speDef = 6
-  maxPP = 80
+  maxPP = 75
   range = 1
   skill = Ability.FELL_STINGER
   passive = Passive.POISON_PIN
@@ -8979,11 +8979,11 @@ export class Naganadel extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 15
+  atk = 17
   speed = 64
   def = 6
   speDef = 6
-  maxPP = 80
+  maxPP = 75
   range = 1
   skill = Ability.FELL_STINGER
   attackSprite = AttackSprite.DRAGON_MELEE
@@ -9147,7 +9147,7 @@ export class Salandit extends Pokemon {
   stars = 1
   evolution = Pkm.SALAZZLE
   hp = 70
-  atk = 5
+  atk = 6
   speed = 63
   def = 4
   speDef = 4
@@ -9163,7 +9163,7 @@ export class Salazzle extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 13
+  atk = 14
   speed = 63
   def = 8
   speDef = 8
@@ -9213,11 +9213,11 @@ export class Voltorb extends Pokemon {
   stars = 1
   evolution = Pkm.ELECTRODE
   hp = 60
-  atk = 6
+  atk = 7
   speed = 73
   def = 2
   speDef = 2
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.EXPLOSION
   additional = true
@@ -9229,11 +9229,11 @@ export class Electrode extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 12
+  atk = 14
   speed = 73
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.EXPLOSION
   additional = true
@@ -9250,11 +9250,11 @@ export class HisuiVoltorb extends Pokemon {
   stars = 1
   evolution = Pkm.HISUI_ELECTRODE
   hp = 60
-  atk = 6
+  atk = 7
   speed = 73
   def = 2
   speDef = 2
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.CHLOROBLAST
   regional = true
@@ -9279,11 +9279,11 @@ export class HisuiElectrode extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 12
+  atk = 14
   speed = 73
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 1
   skill = Ability.CHLOROBLAST
   regional = true
@@ -9309,7 +9309,7 @@ export class Slugma extends Pokemon {
   stars = 1
   evolution = Pkm.MAGCARGO
   hp = 70
-  atk = 9
+  atk = 7
   speed = 35
   def = 8
   speDef = 6
@@ -9329,7 +9329,7 @@ export class Magcargo extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 21
+  atk = 16
   speed = 35
   def = 16
   speDef = 10
@@ -9362,7 +9362,7 @@ export class Weavile extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 200
-  atk = 20
+  atk = 22
   speed = 65
   def = 4
   speDef = 6
@@ -9383,7 +9383,7 @@ export class HisuiSneasel extends Pokemon {
   stars = 1
   evolution = Pkm.SNEASLER
   hp = 85
-  atk = 7
+  atk = 8
   speed = 63
   def = 2
   speDef = 6
@@ -9412,7 +9412,7 @@ export class Sneasler extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 200
-  atk = 17
+  atk = 19
   speed = 63
   def = 4
   speDef = 6
@@ -9454,7 +9454,7 @@ export class Dewgong extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 170
-  atk = 17
+  atk = 16
   speed = 47
   def = 8
   speDef = 8
@@ -9479,7 +9479,7 @@ export class Croagunk extends Pokemon {
   speed = 52
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.CROSS_POISON
   additional = true
@@ -9499,7 +9499,7 @@ export class Toxicroak extends Pokemon {
   speed = 52
   def = 8
   speDef = 8
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.CROSS_POISON
   additional = true
@@ -9515,7 +9515,7 @@ export class Chinchou extends Pokemon {
   stars = 1
   evolution = Pkm.LANTURN
   hp = 60
-  atk = 8
+  atk = 7
   speed = 46
   def = 4
   speDef = 6
@@ -9535,7 +9535,7 @@ export class Lanturn extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 130
-  atk = 18
+  atk = 16
   speed = 46
   def = 6
   speDef = 10
@@ -9551,11 +9551,11 @@ export class Poochyena extends Pokemon {
   stars = 1
   evolution = Pkm.MIGHTYENA
   hp = 80
-  atk = 10
+  atk = 9
   speed = 47
   def = 4
   speDef = 4
-  maxPP = 70
+  maxPP = 75
   range = 1
   skill = Ability.GROWL
   attackSprite = AttackSprite.NORMAL_MELEE
@@ -9566,11 +9566,11 @@ export class Mightyena extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 190
-  atk = 20
+  atk = 19
   speed = 47
   def = 8
   speDef = 8
-  maxPP = 70
+  maxPP = 75
   range = 1
   skill = Ability.GROWL
   attackSprite = AttackSprite.NORMAL_MELEE
@@ -9582,7 +9582,7 @@ export class Bronzor extends Pokemon {
   stars = 1
   evolution = Pkm.BRONZONG
   hp = 100
-  atk = 7
+  atk = 6
   speed = 36
   def = 12
   speDef = 6
@@ -9602,7 +9602,7 @@ export class Bronzong extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 200
-  atk = 16
+  atk = 12
   speed = 36
   def = 18
   speDef = 14
@@ -9627,7 +9627,7 @@ export class Drifloon extends Pokemon {
   speed = 51
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 85
   range = 2
   skill = Ability.CALM_MIND
   additional = true
@@ -9643,11 +9643,11 @@ export class Drifblim extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 250
-  atk = 10
+  atk = 9
   speed = 51
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 85
   range = 2
   skill = Ability.CALM_MIND
   additional = true
@@ -9664,7 +9664,7 @@ export class Shroomish extends Pokemon {
   speed = 47
   def = 4
   speDef = 4
-  maxPP = 80
+  maxPP = 85
   range = 1
   skill = Ability.LEECH_SEED
   additional = true
@@ -9676,11 +9676,11 @@ export class Breloom extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 170
-  atk = 19
+  atk = 18
   speed = 47
   def = 6
   speDef = 6
-  maxPP = 80
+  maxPP = 85
   range = 1
   skill = Ability.LEECH_SEED
   additional = true
@@ -9700,7 +9700,7 @@ export class Tentacool extends Pokemon {
   speed = 57
   def = 4
   speDef = 8
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.POISON
   additional = true
@@ -9720,7 +9720,7 @@ export class Tentacruel extends Pokemon {
   speed = 57
   def = 6
   speDef = 14
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.POISON
   additional = true
@@ -9733,7 +9733,7 @@ export class Snubull extends Pokemon {
   stars = 1
   evolution = Pkm.GRANBULL
   hp = 115
-  atk = 16
+  atk = 13
   speed = 39
   def = 8
   speDef = 4
@@ -9749,7 +9749,7 @@ export class Granbull extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 265
-  atk = 37
+  atk = 30
   speed = 39
   def = 12
   speDef = 6
@@ -9800,7 +9800,7 @@ export class TypeNull extends Pokemon {
   evolution = Pkm.SILVALLY
   evolutionRule = new ItemEvolutionRule([...SynergyItems])
   hp = 200
-  atk = 14
+  atk = 15
   speed = 55
   def = 6
   speDef = 6
@@ -9854,7 +9854,7 @@ export class Applin extends Pokemon {
     }
   )
   hp = 160
-  atk = 17
+  atk = 12
   speed = 31
   def = 6
   speDef = 6
@@ -9876,7 +9876,7 @@ export class Dipplin extends Pokemon {
   evolutionRule = new ItemEvolutionRule([Item.SIRUPY_APPLE])
   stars = 3
   hp = 180
-  atk = 21
+  atk = 14
   speed = 31
   def = 8
   speDef = 8
@@ -9896,7 +9896,7 @@ export class Appletun extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 250
-  atk = 22
+  atk = 15
   speed = 31
   def = 12
   speDef = 12
@@ -9915,11 +9915,11 @@ export class Flapple extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 27
+  atk = 19
   speed = 31
   def = 4
   speDef = 4
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.GRAV_APPLE
   attackSprite = AttackSprite.GRASS_RANGE
@@ -9934,11 +9934,11 @@ export class Hydrapple extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 4
   hp = 170
-  atk = 31
+  atk = 21
   speed = 31
   def = 4
   speDef = 4
-  maxPP = 70
+  maxPP = 80
   range = 3
   skill = Ability.FICKLE_BEAM
   attackSprite = AttackSprite.GRASS_RANGE
@@ -9966,7 +9966,7 @@ export class Starmie extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 16
+  atk = 17
   speed = 62
   def = 8
   speDef = 12
@@ -9999,7 +9999,7 @@ export class Ninetales extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 17
+  atk = 18
   speed = 57
   def = 6
   speDef = 10
@@ -10041,7 +10041,7 @@ export class AlolanNinetales extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 16
+  atk = 17
   speed = 60
   def = 10
   speDef = 10
@@ -10067,7 +10067,7 @@ export class Snom extends Pokemon {
   stars = 1
   evolution = Pkm.FROSMOTH
   hp = 70
-  atk = 9
+  atk = 8
   speed = 46
   def = 4
   speDef = 4
@@ -10083,7 +10083,7 @@ export class Frosmoth extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 22
+  atk = 20
   speed = 46
   def = 6
   speDef = 6
@@ -10100,7 +10100,7 @@ export class Wailmer extends Pokemon {
   stars = 1
   evolution = Pkm.WAILORD
   hp = 180
-  atk = 7
+  atk = 6
   speed = 44
   def = 4
   speDef = 4
@@ -10116,7 +10116,7 @@ export class Wailord extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 400
-  atk = 13
+  atk = 11
   speed = 44
   def = 6
   speDef = 6
@@ -10134,11 +10134,11 @@ export class Dreepy extends Pokemon {
   evolution = Pkm.DRAKLOAK
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 90
-  atk = 4
+  atk = 5
   speed = 71
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.DRAGON_DARTS
   passive = Passive.HATCH
@@ -10152,11 +10152,11 @@ export class Drakloak extends Pokemon {
   evolution = Pkm.DRAGAPULT
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 140
-  atk = 10
+  atk = 12
   speed = 71
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.DRAGON_DARTS
   passive = Passive.HATCH
@@ -10168,11 +10168,11 @@ export class Dragapult extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 190
-  atk = 18
+  atk = 21
   speed = 71
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.DRAGON_DARTS
   attackSprite = AttackSprite.FIRE_RANGE
@@ -10203,7 +10203,7 @@ export class Servine extends Pokemon {
   evolution = Pkm.SERPERIOR
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 160
-  atk = 10
+  atk = 11
   speed = 61
   def = 2
   speDef = 2
@@ -10219,7 +10219,7 @@ export class Serperior extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 240
-  atk = 19
+  atk = 21
   speed = 61
   def = 2
   speDef = 2
@@ -10270,7 +10270,7 @@ export class Staraptor extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 200
-  atk = 24
+  atk = 25
   speed = 57
   def = 14
   speDef = 14
@@ -10305,7 +10305,7 @@ export class Raboot extends Pokemon {
   evolution = Pkm.CINDERACE
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 130
-  atk = 9
+  atk = 10
   speed = 63
   def = 10
   speDef = 10
@@ -10321,7 +10321,7 @@ export class Cinderace extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 180
-  atk = 16
+  atk = 17
   speed = 63
   def = 14
   speDef = 14
@@ -10337,7 +10337,7 @@ export class AlolanGeodude extends Pokemon {
   stars = 1
   evolution = Pkm.ALOLAN_GRAVELER
   hp = 70
-  atk = 5
+  atk = 4
   speed = 39
   def = 4
   speDef = 4
@@ -10358,7 +10358,7 @@ export class AlolanGraveler extends Pokemon {
   stars = 2
   evolution = Pkm.ALOLAN_GOLEM
   hp = 120
-  atk = 12
+  atk = 10
   speed = 39
   def = 8
   speDef = 8
@@ -10378,7 +10378,7 @@ export class AlolanGolem extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 200
-  atk = 21
+  atk = 17
   speed = 39
   def = 12
   speDef = 12
@@ -10400,7 +10400,7 @@ export class Popplio extends Pokemon {
   evolution = Pkm.BRIONNE
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 65
-  atk = 6
+  atk = 5
   speed = 44
   def = 4
   speDef = 4
@@ -10418,7 +10418,7 @@ export class Brionne extends Pokemon {
   evolution = Pkm.PRIMARINA
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 130
-  atk = 12
+  atk = 10
   speed = 44
   def = 4
   speDef = 6
@@ -10434,7 +10434,7 @@ export class Primarina extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 190
-  atk = 23
+  atk = 20
   speed = 44
   def = 4
   speDef = 8
@@ -10469,7 +10469,7 @@ export class Gothorita extends Pokemon {
   evolution = Pkm.GOTHITELLE
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 120
-  atk = 13
+  atk = 12
   speed = 46
   def = 2
   speDef = 6
@@ -10485,7 +10485,7 @@ export class Gothitelle extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 190
-  atk = 22
+  atk = 20
   speed = 46
   def = 2
   speDef = 8
@@ -10517,7 +10517,7 @@ export class Sandslash extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 13
   speed = 46
   def = 10
   speDef = 10
@@ -10551,7 +10551,7 @@ export class AlolanSandslash extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 14
+  atk = 13
   speed = 46
   def = 10
   speDef = 10
@@ -10569,7 +10569,7 @@ export class Nosepass extends Pokemon {
   stars = 1
   evolution = Pkm.PROBOPASS
   hp = 70
-  atk = 7
+  atk = 5
   speed = 38
   def = 6
   speDef = 6
@@ -10585,7 +10585,7 @@ export class Probopass extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 140
-  atk = 14
+  atk = 11
   speed = 38
   def = 16
   speDef = 16
@@ -10626,7 +10626,7 @@ export class Swoobat extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 130
-  atk = 9
+  atk = 10
   speed = 62
   def = 4
   speDef = 4
@@ -10643,7 +10643,7 @@ export class Pineco extends Pokemon {
   stars = 1
   evolution = Pkm.FORRETRESS
   hp = 75
-  atk = 7
+  atk = 5
   speed = 38
   def = 10
   speDef = 6
@@ -10659,7 +10659,7 @@ export class Forretress extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 200
-  atk = 11
+  atk = 9
   speed = 38
   def = 14
   speDef = 6
@@ -10679,7 +10679,7 @@ export class UnownA extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 9
   skill = Ability.HIDDEN_POWER_A
   passive = Passive.UNOWN
@@ -10729,7 +10729,7 @@ export class UnownD extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_D
   passive = Passive.UNOWN
@@ -10746,7 +10746,7 @@ export class UnownE extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_E
   passive = Passive.UNOWN
@@ -10763,7 +10763,7 @@ export class UnownF extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_F
   passive = Passive.UNOWN
@@ -10780,7 +10780,7 @@ export class UnownG extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_G
   passive = Passive.UNOWN
@@ -10797,7 +10797,7 @@ export class UnownH extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 70
+  maxPP = 80
   range = 9
   skill = Ability.HIDDEN_POWER_H
   passive = Passive.UNOWN
@@ -10814,7 +10814,7 @@ export class UnownI extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_I
   passive = Passive.UNOWN
@@ -10831,7 +10831,7 @@ export class UnownJ extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 9
   skill = Ability.HIDDEN_POWER_J
   passive = Passive.UNOWN
@@ -10848,7 +10848,7 @@ export class UnownK extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 9
   skill = Ability.HIDDEN_POWER_K
   passive = Passive.UNOWN
@@ -10899,7 +10899,7 @@ export class UnownN extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_N
   passive = Passive.UNOWN
@@ -10933,7 +10933,7 @@ export class UnownP extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_P
   passive = Passive.UNOWN
@@ -10950,7 +10950,7 @@ export class UnownQ extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 190
+  maxPP = 200
   range = 9
   skill = Ability.HIDDEN_POWER_Q
   passive = Passive.UNOWN
@@ -10967,7 +10967,7 @@ export class UnownR extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 9
   skill = Ability.HIDDEN_POWER_R
   passive = Passive.UNOWN
@@ -10984,7 +10984,7 @@ export class UnownS extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_S
   passive = Passive.UNOWN
@@ -11001,7 +11001,7 @@ export class UnownT extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 70
+  maxPP = 80
   range = 9
   skill = Ability.HIDDEN_POWER_T
   passive = Passive.UNOWN
@@ -11018,7 +11018,7 @@ export class UnownU extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 70
+  maxPP = 80
   range = 9
   skill = Ability.HIDDEN_POWER_U
   passive = Passive.UNOWN
@@ -11035,7 +11035,7 @@ export class UnownV extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 9
   skill = Ability.HIDDEN_POWER_V
   passive = Passive.UNOWN
@@ -11052,7 +11052,7 @@ export class UnownW extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_W
   passive = Passive.UNOWN
@@ -11103,7 +11103,7 @@ export class UnownZ extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 80
+  maxPP = 90
   range = 9
   skill = Ability.HIDDEN_POWER_Z
   passive = Passive.UNOWN
@@ -11120,7 +11120,7 @@ export class UnownQuestion extends Pokemon {
   speed = 40
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 9
   skill = Ability.HIDDEN_POWER_QM
   passive = Passive.UNOWN
@@ -11167,7 +11167,7 @@ export class Dugtrio extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 160
-  atk = 11
+  atk = 12
   speed = 63
   def = 10
   speDef = 8
@@ -11208,7 +11208,7 @@ export class AlolanDugtrio extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 15
+  atk = 16
   speed = 60
   def = 6
   speDef = 4
@@ -11252,7 +11252,7 @@ export class Dartix extends Pokemon {
   evolution = Pkm.DECIDUEYE
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 130
-  atk = 10
+  atk = 9
   speed = 47
   def = 4
   speDef = 6
@@ -11268,7 +11268,7 @@ export class Decidueye extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 190
-  atk = 19
+  atk = 18
   speed = 47
   def = 4
   speDef = 8
@@ -11288,7 +11288,7 @@ export class Zorua extends Pokemon {
   speed = 59
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.ILLUSION
   additional = true
@@ -11300,11 +11300,11 @@ export class Zoroark extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 140
-  atk = 15
+  atk = 16
   speed = 59
   def = 8
   speDef = 8
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.ILLUSION
   additional = true
@@ -11321,7 +11321,7 @@ export class HisuiZorua extends Pokemon {
   speed = 60
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.ILLUSION
   attackSprite = AttackSprite.NORMAL_MELEE
@@ -11342,11 +11342,11 @@ export class HisuiZoroark extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 140
-  atk = 15
+  atk = 16
   speed = 60
   def = 8
   speDef = 8
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.ILLUSION
   attackSprite = AttackSprite.NORMAL_MELEE
@@ -11372,7 +11372,7 @@ export class Grimer extends Pokemon {
   stars = 1
   evolution = Pkm.MUK
   hp = 80
-  atk = 5
+  atk = 4
   speed = 41
   def = 6
   speDef = 4
@@ -11392,7 +11392,7 @@ export class Muk extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 170
-  atk = 11
+  atk = 9
   speed = 41
   def = 12
   speDef = 8
@@ -11413,7 +11413,7 @@ export class AlolanGrimer extends Pokemon {
   stars = 1
   evolution = Pkm.ALOLAN_MUK
   hp = 70
-  atk = 7
+  atk = 6
   speed = 41
   def = 4
   speDef = 4
@@ -11441,7 +11441,7 @@ export class AlolanMuk extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 16
+  atk = 14
   speed = 41
   def = 12
   speDef = 8
@@ -11482,7 +11482,7 @@ export class Arbok extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 130
-  atk = 18
+  atk = 17
   speed = 51
   def = 8
   speDef = 8
@@ -11515,7 +11515,7 @@ export class Sharpedo extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 25
+  atk = 26
   speed = 55
   def = 4
   speDef = 6
@@ -11533,7 +11533,7 @@ export class Froakie extends Pokemon {
   evolution = Pkm.FROGADIER
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 80
-  atk = 5
+  atk = 6
   speed = 64
   def = 4
   speDef = 4
@@ -11551,7 +11551,7 @@ export class Frogadier extends Pokemon {
   evolution = Pkm.GRENINJA
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 140
-  atk = 11
+  atk = 12
   speed = 64
   def = 6
   speDef = 8
@@ -11567,7 +11567,7 @@ export class Greninja extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 200
-  atk = 18
+  atk = 19
   speed = 64
   def = 8
   speDef = 12
@@ -11584,7 +11584,7 @@ export class Chingling extends Pokemon {
   evolution = Pkm.CHIMECHO
   evolutionRule = new ItemEvolutionRule([Item.STAR_DUST])
   hp = 150
-  atk = 11
+  atk = 10
   speed = 46
   def = 4
   speDef = 8
@@ -11600,7 +11600,7 @@ export class Chimecho extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 15
   speed = 46
   def = 6
   speDef = 12
@@ -11620,7 +11620,7 @@ export class Tyrogue extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 2
   hp = 150
-  atk = 14
+  atk = 11
   speed = 36
   def = 6
   speDef = 6
@@ -11659,7 +11659,7 @@ export class Hitmontop extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 29
+  atk = 22
   speed = 36
   def = 10
   speDef = 10
@@ -11674,7 +11674,7 @@ export class Hitmonlee extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 43
+  atk = 33
   speed = 36
   def = 6
   speDef = 6
@@ -11689,7 +11689,7 @@ export class Hitmonchan extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 29
+  atk = 22
   speed = 36
   def = 14
   speDef = 14
@@ -11708,7 +11708,7 @@ export class Mimikyu extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 13
+  atk = 14
   speed = 56
   def = 10
   speDef = 12
@@ -11728,7 +11728,7 @@ export class MimikyuBusted extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 22
+  atk = 23
   speed = 56
   def = 10
   speDef = 12
@@ -11745,7 +11745,7 @@ export class Bonsley extends Pokemon {
   stars = 1
   evolution = Pkm.SUDOWOODO
   hp = 125
-  atk = 12
+  atk = 9
   speed = 35
   def = 10
   speDef = 4
@@ -11766,7 +11766,7 @@ export class Sudowoodo extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 250
-  atk = 30
+  atk = 22
   speed = 35
   def = 12
   speDef = 6
@@ -11788,7 +11788,7 @@ export class Combee extends Pokemon {
   stars = 1
   evolution = Pkm.VESPIQUEEN
   hp = 120
-  atk = 12
+  atk = 10
   speed = 38
   def = 6
   speDef = 6
@@ -11804,7 +11804,7 @@ export class Vespiqueen extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 280
-  atk = 27
+  atk = 22
   speed = 38
   def = 8
   speDef = 8
@@ -11820,7 +11820,7 @@ export class Shuckle extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 150
-  atk = 8
+  atk = 5
   speed = 27
   def = 40
   speDef = 40
@@ -11837,7 +11837,7 @@ export class Tepig extends Pokemon {
   evolution = Pkm.PIGNITE
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 70
-  atk = 8
+  atk = 7
   speed = 46
   def = 4
   speDef = 4
@@ -11855,7 +11855,7 @@ export class Pignite extends Pokemon {
   evolution = Pkm.EMBOAR
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 140
-  atk = 13
+  atk = 12
   speed = 46
   def = 8
   speDef = 8
@@ -11871,7 +11871,7 @@ export class Emboar extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 210
-  atk = 22
+  atk = 20
   speed = 46
   def = 12
   speDef = 12
@@ -11886,7 +11886,7 @@ export class Wurmple extends Pokemon {
   rarity = Rarity.EPIC
   stars = 1
   hp = 110
-  atk = 17
+  atk = 12
   speed = 31
   def = 6
   speDef = 6
@@ -11910,11 +11910,11 @@ export class Silcoon extends Pokemon {
   stars = 2
   evolution = Pkm.BEAUTIFLY
   hp = 180
-  atk = 34
+  atk = 23
   speed = 31
   def = 12
   speDef = 12
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.SPIKE_ARMOR
   attackSprite = AttackSprite.BUG_MELEE
@@ -11925,7 +11925,7 @@ export class Beautifly extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 250
-  atk = 52
+  atk = 35
   speed = 31
   def = 12
   speDef = 12
@@ -11941,11 +11941,11 @@ export class Cascoon extends Pokemon {
   stars = 2
   evolution = Pkm.DUSTOX
   hp = 180
-  atk = 34
+  atk = 23
   speed = 31
   def = 12
   speDef = 12
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.SPIKE_ARMOR
   attackSprite = AttackSprite.BUG_MELEE
@@ -11961,7 +11961,7 @@ export class Dustox extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 250
-  atk = 52
+  atk = 35
   speed = 31
   def = 12
   speDef = 12
@@ -12028,7 +12028,7 @@ export class Maractus extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 18
+  atk = 16
   speed = 44
   def = 12
   speDef = 8
@@ -12073,7 +12073,7 @@ export class Spectrier extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 280
-  atk = 22
+  atk = 25
   speed = 67
   def = 10
   speDef = 20
@@ -12089,7 +12089,7 @@ export class Kartana extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 200
-  atk = 33
+  atk = 35
   speed = 60
   def = 20
   speDef = 4
@@ -12105,7 +12105,7 @@ export class Dhelmise extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 24
+  atk = 19
   speed = 38
   def = 10
   speDef = 10
@@ -12124,7 +12124,7 @@ export class Tropius extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 20
+  atk = 17
   speed = 41
   def = 8
   speDef = 8
@@ -12143,11 +12143,11 @@ export class Carnivine extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 26
+  atk = 21
   speed = 40
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 100
   range = 2
   skill = Ability.VINE_WHIP
   attackSprite = AttackSprite.GRASS_RANGE
@@ -12160,7 +12160,7 @@ export class Sableye extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 15
+  atk = 13
   speed = 41
   def = 8
   speDef = 8
@@ -12176,11 +12176,11 @@ export class MegaSableye extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 4
   hp = 200
-  atk = 21
+  atk = 14
   speed = 31
   def = 12
   speDef = 12
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.KNOCK_OFF
   attackSprite = AttackSprite.DARK_MELEE
@@ -12200,7 +12200,7 @@ export class Koffing extends Pokemon {
   stars = 1
   evolution = Pkm.WEEZING
   hp = 70
-  atk = 6
+  atk = 5
   speed = 44
   def = 6
   speDef = 6
@@ -12220,7 +12220,7 @@ export class Weezing extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 170
-  atk = 12
+  atk = 10
   speed = 44
   def = 10
   speDef = 10
@@ -12237,11 +12237,11 @@ export class Clauncher extends Pokemon {
   stars = 1
   evolution = Pkm.CLAWITZER
   hp = 80
-  atk = 8
+  atk = 7
   speed = 44
   def = 2
   speDef = 2
-  maxPP = 190
+  maxPP = 180
   range = 4
   skill = Ability.WATER_PULSE
   passive = Passive.MEGA_LAUNCHER
@@ -12254,11 +12254,11 @@ export class Clawitzer extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 150
-  atk = 22
+  atk = 19
   speed = 44
   def = 6
   speDef = 4
-  maxPP = 190
+  maxPP = 180
   range = 4
   skill = Ability.WATER_PULSE
   passive = Passive.MEGA_LAUNCHER
@@ -12292,7 +12292,7 @@ export class Yanmega extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 160
-  atk = 14
+  atk = 15
   speed = 55
   def = 4
   speDef = 4
@@ -12317,11 +12317,11 @@ export class Helioptile extends Pokemon {
   stars = 1
   evolution = Pkm.HELIOLISK
   hp = 75
-  atk = 7
+  atk = 8
   speed = 60
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 80
   range = 3
   skill = Ability.PARABOLIC_CHARGE
   passive = Passive.DRY_SKIN
@@ -12350,11 +12350,11 @@ export class Heliolisk extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 170
-  atk = 18
+  atk = 19
   speed = 60
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 80
   range = 3
   skill = Ability.PARABOLIC_CHARGE
   passive = Passive.DRY_SKIN
@@ -12388,11 +12388,11 @@ export class Exeggcute extends Pokemon {
     }
   )
   hp = 110
-  atk = 11
+  atk = 9
   speed = 38
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 100
   range = 3
   skill = Ability.EGGSPLOSION
   additional = true
@@ -12404,7 +12404,7 @@ export class Exeggutor extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 300
-  atk = 27
+  atk = 22
   speed = 38
   def = 10
   speDef = 10
@@ -12424,7 +12424,7 @@ export class AlolanExeggutor extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 350
-  atk = 33
+  atk = 26
   speed = 38
   def = 6
   speDef = 6
@@ -12472,7 +12472,7 @@ export class Bibarel extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 135
-  atk = 16
+  atk = 15
   speed = 48
   def = 4
   speDef = 4
@@ -12487,7 +12487,7 @@ export class Spinda extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 23
+  atk = 20
   speed = 44
   def = 10
   speDef = 10
@@ -12531,7 +12531,7 @@ export class Claydol extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 180
-  atk = 16
+  atk = 15
   speed = 49
   def = 12
   speDef = 12
@@ -12564,7 +12564,7 @@ export class Liepard extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 175
-  atk = 21
+  atk = 22
   speed = 59
   def = 6
   speDef = 6
@@ -12581,7 +12581,7 @@ export class Barboach extends Pokemon {
   stars = 1
   evolution = Pkm.WHISCASH
   hp = 120
-  atk = 10
+  atk = 9
   speed = 44
   def = 6
   speDef = 8
@@ -12606,7 +12606,7 @@ export class Whiscash extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 250
-  atk = 25
+  atk = 22
   speed = 44
   def = 8
   speDef = 10
@@ -12632,7 +12632,7 @@ export class Scraggy extends Pokemon {
   stars = 1
   evolution = Pkm.SCRAFTY
   hp = 70
-  atk = 9
+  atk = 8
   speed = 44
   def = 4
   speDef = 4
@@ -12649,7 +12649,7 @@ export class Scrafty extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 140
-  atk = 21
+  atk = 18
   speed = 44
   def = 8
   speDef = 8
@@ -12671,7 +12671,7 @@ export class Finneon extends Pokemon {
   speed = 54
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 85
   range = 2
   skill = Ability.AQUA_RING
   additional = true
@@ -12687,7 +12687,7 @@ export class Lumineon extends Pokemon {
   speed = 54
   def = 8
   speDef = 8
-  maxPP = 90
+  maxPP = 85
   range = 2
   skill = Ability.AQUA_RING
   additional = true
@@ -12700,7 +12700,7 @@ export class Stunky extends Pokemon {
   stars = 1
   evolution = Pkm.SKUNTANK
   hp = 125
-  atk = 10
+  atk = 9
   speed = 52
   def = 4
   speDef = 4
@@ -12766,7 +12766,7 @@ export class Necrozma extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 30
+  atk = 29
   speed = 50
   def = 10
   speDef = 10
@@ -12798,7 +12798,7 @@ export class UltraNecrozma extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 4
   hp = 300
-  atk = 30
+  atk = 29
   speed = 50
   def = 10
   speDef = 10
@@ -12835,7 +12835,7 @@ export class Cherrubi extends Pokemon {
   speed = 52
   def = 2
   speDef = 2
-  maxPP = 70
+  maxPP = 65
   range = 3
   skill = Ability.NATURAL_GIFT
   regional = true
@@ -12855,7 +12855,7 @@ export class Cherrim extends Pokemon {
   speed = 52
   def = 4
   speDef = 4
-  maxPP = 70
+  maxPP = 65
   range = 3
   skill = Ability.NATURAL_GIFT
   passive = Passive.BLOSSOM
@@ -12883,7 +12883,7 @@ export class CherrimSunlight extends Pokemon {
   speed = 52
   def = 6
   speDef = 6
-  maxPP = 60
+  maxPP = 65
   range = 3
   skill = Ability.NATURAL_GIFT
   passive = Passive.BLOSSOM
@@ -12916,7 +12916,7 @@ export class Misdreavus extends Pokemon {
   speed = 59
   def = 4
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 3
   skill = Ability.NIGHT_SHADE
   additional = true
@@ -12932,11 +12932,11 @@ export class Mismagius extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 160
-  atk = 19
+  atk = 20
   speed = 59
   def = 4
   speDef = 8
-  maxPP = 110
+  maxPP = 100
   range = 3
   skill = Ability.NIGHT_SHADE
   additional = true
@@ -12965,7 +12965,7 @@ export class Dodrio extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 185
-  atk = 23
+  atk = 24
   speed = 60
   def = 10
   speDef = 6
@@ -12982,7 +12982,7 @@ export class Kricketot extends Pokemon {
   stars = 1
   evolution = Pkm.KRICKETUNE
   hp = 80
-  atk = 8
+  atk = 7
   speed = 46
   def = 4
   speDef = 4
@@ -12998,7 +12998,7 @@ export class Kricketune extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 190
-  atk = 20
+  atk = 18
   speed = 46
   def = 8
   speDef = 8
@@ -13015,7 +13015,7 @@ export class Hippopotas extends Pokemon {
   stars = 1
   evolution = Pkm.HIPPODOWN
   hp = 120
-  atk = 13
+  atk = 11
   speed = 40
   def = 8
   speDef = 4
@@ -13032,7 +13032,7 @@ export class Hippodown extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 270
-  atk = 28
+  atk = 23
   speed = 40
   def = 14
   speDef = 6
@@ -13050,7 +13050,7 @@ export class Wingull extends Pokemon {
   stars = 1
   evolution = Pkm.PELIPPER
   hp = 90
-  atk = 11
+  atk = 10
   speed = 46
   def = 10
   speDef = 6
@@ -13067,7 +13067,7 @@ export class Pelipper extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 200
-  atk = 26
+  atk = 24
   speed = 46
   def = 14
   speDef = 8
@@ -13105,7 +13105,7 @@ export class Honchkrow extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 220
-  atk = 25
+  atk = 23
   speed = 48
   def = 16
   speDef = 10
@@ -13142,7 +13142,7 @@ export class Linoone extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 18
+  atk = 19
   speed = 57
   def = 12
   speDef = 8
@@ -13213,7 +13213,7 @@ export class Phantump extends Pokemon {
   stars = 1
   evolution = Pkm.TREVENANT
   hp = 90
-  atk = 9
+  atk = 8
   speed = 43
   def = 6
   speDef = 4
@@ -13233,7 +13233,7 @@ export class Trevenant extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 200
-  atk = 21
+  atk = 18
   speed = 43
   def = 8
   speDef = 8
@@ -13254,7 +13254,7 @@ export class HisuianQwilfish extends Pokemon {
   stars = 1
   evolution = Pkm.OVERQWIL
   hp = 95
-  atk = 8
+  atk = 7
   speed = 52
   def = 8
   speDef = 4
@@ -13315,7 +13315,7 @@ export class Nihilego extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 200
-  atk = 21
+  atk = 22
   speed = 58
   def = 2
   speDef = 10
@@ -13331,7 +13331,7 @@ export class Tandemaus extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 2
   hp = 160
-  atk = 13
+  atk = 14
   speed = 61
   def = 10
   speDef = 10
@@ -13351,7 +13351,7 @@ export class MausholdThree extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 61
   def = 10
   speDef = 10
@@ -13371,7 +13371,7 @@ export class MausholdFour extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 4
   hp = 240
-  atk = 19
+  atk = 21
   speed = 61
   def = 10
   speDef = 10
@@ -13418,7 +13418,7 @@ export class Minior extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 14
   speed = 44
   def = 10
   speDef = 10
@@ -13434,7 +13434,7 @@ export class MiniorKernelBlue extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 14
   speed = 44
   def = 10
   speDef = 10
@@ -13450,7 +13450,7 @@ export class MiniorKernelRed extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 14
   speed = 44
   def = 10
   speDef = 10
@@ -13466,7 +13466,7 @@ export class MiniorKernelOrange extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 14
   speed = 44
   def = 10
   speDef = 10
@@ -13482,7 +13482,7 @@ export class MiniorKernelGreen extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 14
   speed = 44
   def = 10
   speDef = 10
@@ -13498,7 +13498,7 @@ export class Hoopa extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 16
+  atk = 15
   speed = 47
   def = 6
   speDef = 12
@@ -13513,7 +13513,7 @@ export class HoopaUnbound extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 4
   hp = 250
-  atk = 27
+  atk = 25
   speed = 47
   def = 6
   speDef = 12
@@ -13528,7 +13528,7 @@ export class Gimmighoul extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 2
   hp = 200
-  atk = 10
+  atk = 9
   speed = 52
   def = 8
   speDef = 8
@@ -13573,11 +13573,11 @@ export class Sobble extends Pokemon {
   evolution = Pkm.DRIZZILE
   stars = 1
   hp = 120
-  atk = 11
+  atk = 12
   speed = 63
   def = 4
   speDef = 4
-  maxPP = 110
+  maxPP = 100
   range = 3
   skill = Ability.SNIPE_SHOT
   attackSprite = AttackSprite.WATER_RANGE
@@ -13589,11 +13589,11 @@ export class Drizzile extends Pokemon {
   evolution = Pkm.INTELEON
   stars = 2
   hp = 200
-  atk = 20
+  atk = 22
   speed = 63
   def = 8
   speDef = 8
-  maxPP = 110
+  maxPP = 100
   range = 3
   skill = Ability.SNIPE_SHOT
   attackSprite = AttackSprite.WATER_RANGE
@@ -13604,11 +13604,11 @@ export class Inteleon extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 360
-  atk = 31
+  atk = 34
   speed = 63
   def = 12
   speDef = 12
-  maxPP = 110
+  maxPP = 100
   range = 3
   skill = Ability.SNIPE_SHOT
   attackSprite = AttackSprite.WATER_RANGE
@@ -13700,7 +13700,7 @@ export class Herdier extends Pokemon {
   evolution = Pkm.STOUTLAND
   stars = 2
   hp = 120
-  atk = 12
+  atk = 11
   speed = 51
   def = 6
   speDef = 6
@@ -13715,7 +13715,7 @@ export class Stoutland extends Pokemon {
   rarity = Rarity.COMMON
   stars = 3
   hp = 220
-  atk = 22
+  atk = 21
   speed = 51
   def = 8
   speDef = 8
@@ -13730,11 +13730,11 @@ export class Pheromosa extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 200
-  atk = 23
+  atk = 27
   speed = 73
   def = 10
   speDef = 10
-  maxPP = 90
+  maxPP = 85
   range = 1
   skill = Ability.LUNGE
   attackSprite = AttackSprite.BUG_MELEE
@@ -13749,7 +13749,7 @@ export class Dracovish extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 21
+  atk = 20
   speed = 49
   def = 6
   speDef = 6
@@ -13768,7 +13768,7 @@ export class Dracozolt extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 21
+  atk = 20
   speed = 49
   def = 6
   speDef = 6
@@ -13787,7 +13787,7 @@ export class Arctozolt extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 25
+  atk = 22
   speed = 43
   def = 6
   speDef = 6
@@ -13802,7 +13802,7 @@ export class Arctovish extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 25
+  atk = 22
   speed = 43
   def = 6
   speDef = 6
@@ -13832,7 +13832,7 @@ export class Corsola extends Pokemon {
   rarity = Rarity.EPIC
   stars = 1
   hp = 125
-  atk = 12
+  atk = 9
   speed = 35
   def = 2
   speDef = 8
@@ -13854,7 +13854,7 @@ export class GalarCorsola extends Pokemon {
   rarity = Rarity.EPIC
   stars = 1
   hp = 125
-  atk = 12
+  atk = 9
   speed = 35
   def = 2
   speDef = 8
@@ -13873,7 +13873,7 @@ export class Cursola extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 200
-  atk = 37
+  atk = 28
   speed = 35
   def = 6
   speDef = 16
@@ -13892,7 +13892,7 @@ export class Smeargle extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 250
-  atk = 20
+  atk = 19
   speed = 49
   def = 6
   speDef = 6
@@ -13946,7 +13946,7 @@ export class Toxtricity extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 160
-  atk = 21
+  atk = 20
   speed = 49
   def = 6
   speDef = 6
@@ -13962,7 +13962,7 @@ export class Cyclizar extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 220
-  atk = 15
+  atk = 17
   speed = 64
   def = 8
   speDef = 8
@@ -13978,7 +13978,7 @@ export class Pawniard extends Pokemon {
   stars = 1
   evolution = Pkm.BISHARP
   hp = 130
-  atk = 21
+  atk = 18
   speed = 41
   def = 10
   speDef = 6
@@ -13994,7 +13994,7 @@ export class Bisharp extends Pokemon {
   stars = 2
   evolution = Pkm.KINGAMBIT
   hp = 250
-  atk = 37
+  atk = 31
   speed = 41
   def = 16
   speDef = 8
@@ -14009,7 +14009,7 @@ export class Kingambit extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 400
-  atk = 52
+  atk = 44
   speed = 41
   def = 24
   speDef = 12
@@ -14042,7 +14042,7 @@ export class Milotic extends Pokemon {
   rarity = Rarity.SPECIAL
   stars = 3
   hp = 300
-  atk = 16
+  atk = 15
   speed = 51
   def = 8
   speDef = 14
@@ -14066,7 +14066,7 @@ export class Dewpider extends Pokemon {
   stars = 1
   evolution = Pkm.ARAQUANID
   hp = 60
-  atk = 10
+  atk = 8
   speed = 38
   def = 4
   speDef = 2
@@ -14087,7 +14087,7 @@ export class Araquanid extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 22
+  atk = 17
   speed = 38
   def = 8
   speDef = 4
@@ -14108,7 +14108,7 @@ export class Lickitung extends Pokemon {
   stars = 1
   evolution = Pkm.LICKILICKY
   hp = 70
-  atk = 7
+  atk = 6
   speed = 41
   def = 4
   speDef = 6
@@ -14127,7 +14127,7 @@ export class Lickilicky extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 14
+  atk = 12
   speed = 41
   def = 8
   speDef = 10
@@ -14162,7 +14162,7 @@ export class Teddiursa extends Pokemon {
   stars = 1
   evolution = Pkm.URSARING
   hp = 150
-  atk = 15
+  atk = 13
   speed = 41
   def = 8
   speDef = 6
@@ -14178,7 +14178,7 @@ export class Ursaring extends Pokemon {
   stars = 2
   evolution = Pkm.URSALUNA
   hp = 280
-  atk = 29
+  atk = 24
   speed = 41
   def = 12
   speDef = 10
@@ -14193,7 +14193,7 @@ export class Ursaluna extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 450
-  atk = 35
+  atk = 29
   speed = 41
   def = 24
   speDef = 20
@@ -14217,7 +14217,7 @@ export class UrsalunaBloodmoon extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 380
-  atk = 45
+  atk = 38
   speed = 41
   def = 28
   speDef = 14
@@ -14259,7 +14259,7 @@ export class Ambipom extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 130
-  atk = 11
+  atk = 12
   speed = 62
   def = 8
   speDef = 8
@@ -14323,7 +14323,7 @@ export class Watchog extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 18
+  atk = 17
   speed = 50
   def = 4
   speDef = 4
@@ -14339,7 +14339,7 @@ export class Spinarak extends Pokemon {
   stars = 1
   evolution = Pkm.ARIADOS
   hp = 60
-  atk = 8
+  atk = 6
   speed = 38
   def = 2
   speDef = 2
@@ -14354,7 +14354,7 @@ export class Ariados extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 19
+  atk = 15
   speed = 38
   def = 4
   speDef = 4
@@ -14370,7 +14370,7 @@ export class Rockruff extends Pokemon {
   stars = 1
   evolution = Pkm.LYCANROC_DUSK
   hp = 90
-  atk = 11
+  atk = 12
   speed = 61
   def = 2
   speDef = 2
@@ -14397,7 +14397,7 @@ export class LycanrocDusk extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 190
-  atk = 21
+  atk = 22
   speed = 61
   def = 4
   speDef = 4
@@ -14417,7 +14417,7 @@ export class LycanrocNight extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 190
-  atk = 21
+  atk = 22
   speed = 61
   def = 4
   speDef = 4
@@ -14437,7 +14437,7 @@ export class LycanrocDay extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 190
-  atk = 21
+  atk = 22
   speed = 61
   def = 4
   speDef = 4
@@ -14461,7 +14461,7 @@ export class Druddigon extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 170
-  atk = 23
+  atk = 19
   speed = 40
   def = 8
   speDef = 8
@@ -14480,11 +14480,11 @@ export class Cosmog extends Pokemon {
   )
   stars = 1
   hp = 100
-  atk = 7
+  atk = 5
   speed = 37
   def = 8
   speDef = 8
-  maxPP = 90
+  maxPP = 100
   range = 4
   skill = Ability.TELEPORT
   passive = Passive.COSMOG
@@ -14512,11 +14512,11 @@ export class Cosmoem extends Pokemon {
     this.hp = 200 // cancel hp buffs of cosmog
   }
   hp = 200
-  atk = 7
+  atk = 5
   speed = 37
   def = 16
   speDef = 16
-  maxPP = 90
+  maxPP = 100
   range = 4
   skill = Ability.TELEPORT
   passive = Passive.COSMOEM
@@ -14532,11 +14532,11 @@ export class Solgaleo extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 35
+  atk = 27
   speed = 37
   def = 12
   speDef = 8
-  maxPP = 120
+  maxPP = 110
   range = 1
   skill = Ability.SUNSTEEL_STRIKE
   attackSprite = AttackSprite.STEEL_MELEE
@@ -14555,11 +14555,11 @@ export class Lunala extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 35
+  atk = 27
   speed = 37
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 100
   range = 4
   skill = Ability.MOONGEIST_BEAM
   attackSprite = AttackSprite.STEEL_MELEE
@@ -14578,7 +14578,7 @@ export class Magearna extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 300
-  atk = 27
+  atk = 25
   speed = 46
   def = 8
   speDef = 16
@@ -14595,7 +14595,7 @@ export class Impidimp extends Pokemon {
   stars = 1
   evolution = Pkm.MORGREM
   hp = 60
-  atk = 7
+  atk = 6
   speed = 44
   def = 2
   speDef = 4
@@ -14612,7 +14612,7 @@ export class Morgrem extends Pokemon {
   stars = 2
   evolution = Pkm.GRIMMSNARL
   hp = 110
-  atk = 14
+  atk = 12
   speed = 44
   def = 4
   speDef = 6
@@ -14628,7 +14628,7 @@ export class Grimmsnarl extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 200
-  atk = 30
+  atk = 26
   speed = 44
   def = 6
   speDef = 8
@@ -14649,7 +14649,7 @@ export class Drowzee extends Pokemon {
   stars = 1
   evolution = Pkm.HYPNO
   hp = 100
-  atk = 8
+  atk = 7
   speed = 46
   def = 4
   speDef = 6
@@ -14669,7 +14669,7 @@ export class Hypno extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 250
-  atk = 15
+  atk = 14
   speed = 46
   def = 8
   speDef = 12
@@ -14690,7 +14690,7 @@ export class Wattrel extends Pokemon {
   speed = 65
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.SPARK
   attackSprite = AttackSprite.ELECTRIC_RANGE
@@ -14703,11 +14703,11 @@ export class Kilowattrel extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 190
-  atk = 14
+  atk = 16
   speed = 65
   def = 8
   speDef = 8
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.SPARK
   attackSprite = AttackSprite.ELECTRIC_RANGE
@@ -14721,7 +14721,7 @@ export class BurmyPlant extends Pokemon {
   stars = 1
   evolution = Pkm.WORMADAM_PLANT
   hp = 70
-  atk = 8
+  atk = 7
   speed = 46
   def = 2
   speDef = 2
@@ -14744,7 +14744,7 @@ export class BurmySandy extends Pokemon {
   stars = 1
   evolution = Pkm.WORMADAM_SANDY
   hp = 70
-  atk = 8
+  atk = 7
   speed = 46
   def = 4
   speDef = 4
@@ -14770,7 +14770,7 @@ export class BurmyTrash extends Pokemon {
   stars = 1
   evolution = Pkm.WORMADAM_TRASH
   hp = 70
-  atk = 8
+  atk = 7
   speed = 46
   def = 6
   speDef = 6
@@ -14797,7 +14797,7 @@ export class WormadamPlant extends Pokemon {
   stars = 2
   evolution = Pkm.MOTHIM
   hp = 150
-  atk = 14
+  atk = 13
   speed = 46
   def = 2
   speDef = 4
@@ -14821,7 +14821,7 @@ export class WormadamSandy extends Pokemon {
   stars = 2
   evolution = Pkm.MOTHIM
   hp = 150
-  atk = 14
+  atk = 13
   speed = 46
   def = 4
   speDef = 6
@@ -14848,7 +14848,7 @@ export class WormadamTrash extends Pokemon {
   stars = 2
   evolution = Pkm.MOTHIM
   hp = 150
-  atk = 14
+  atk = 13
   speed = 46
   def = 6
   speDef = 6
@@ -14875,7 +14875,7 @@ export class Mothim extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 200
-  atk = 22
+  atk = 20
   speed = 46
   def = 6
   speDef = 6
@@ -14903,11 +14903,11 @@ export class PaldeaWooper extends Pokemon {
   evolution = Pkm.CLODSIRE
   stars = 1
   hp = 80
-  atk = 9
+  atk = 6
   speed = 31
   def = 6
   speDef = 10
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.RECOVER
   attackSprite = AttackSprite.POISON_MELEE
@@ -14923,11 +14923,11 @@ export class Clodsire extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 190
-  atk = 17
+  atk = 12
   speed = 31
   def = 10
   speDef = 16
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.RECOVER
   attackSprite = AttackSprite.POISON_MELEE
@@ -14948,7 +14948,7 @@ export class Tangela extends Pokemon {
   speed = 41
   def = 8
   speDef = 4
-  maxPP = 120
+  maxPP = 100
   range = 1
   skill = Ability.POWER_WHIP
   attackSprite = AttackSprite.GRASS_MELEE
@@ -14964,11 +14964,11 @@ export class Tangrowth extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 190
-  atk = 16
+  atk = 14
   speed = 41
   def = 12
   speDef = 4
-  maxPP = 120
+  maxPP = 100
   range = 1
   skill = Ability.POWER_WHIP
   attackSprite = AttackSprite.GRASS_MELEE
@@ -14981,7 +14981,7 @@ export class Phanpy extends Pokemon {
   evolution = Pkm.DONPHAN
   stars = 1
   hp = 80
-  atk = 6
+  atk = 5
   speed = 41
   def = 8
   speDef = 4
@@ -14996,7 +14996,7 @@ export class Donphan extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 12
+  atk = 10
   speed = 41
   def = 12
   speDef = 8
@@ -15028,7 +15028,7 @@ export class Grumpig extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 240
-  atk = 10
+  atk = 9
   speed = 51
   def = 12
   speDef = 20
@@ -15069,7 +15069,7 @@ export class Polteageist extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 180
-  atk = 10
+  atk = 9
   speed = 47
   def = 10
   speDef = 10
@@ -15086,11 +15086,11 @@ export class Ferroseed extends Pokemon {
   evolution = Pkm.FERROTHORN
   stars = 1
   hp = 100
-  atk = 12
+  atk = 8
   speed = 31
   def = 14
   speDef = 14
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.SPIKES
   attackSprite = AttackSprite.GRASS_MELEE
@@ -15102,11 +15102,11 @@ export class Ferrothorn extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 220
-  atk = 24
+  atk = 16
   speed = 31
   def = 28
   speDef = 28
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.SPIKES
   attackSprite = AttackSprite.GRASS_MELEE
@@ -15123,7 +15123,7 @@ export class Golett extends Pokemon {
   evolution = Pkm.GOLURK
   stars = 1
   hp = 80
-  atk = 8
+  atk = 7
   speed = 43
   def = 4
   speDef = 4
@@ -15143,7 +15143,7 @@ export class Golurk extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 180
-  atk = 24
+  atk = 21
   speed = 43
   def = 8
   speDef = 8
@@ -15260,7 +15260,7 @@ export class Garbodor extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 230
-  atk = 15
+  atk = 14
   speed = 49
   def = 10
   speDef = 10
@@ -15300,11 +15300,11 @@ export class Grubbin extends Pokemon {
   evolution = Pkm.CHARJABUG
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 80
-  atk = 8
+  atk = 6
   speed = 39
   def = 4
   speDef = 4
-  maxPP = 70
+  maxPP = 80
   range = 3
   skill = Ability.ZAP_CANNON
   passive = Passive.HATCH
@@ -15318,11 +15318,11 @@ export class Charjabug extends Pokemon {
   evolution = Pkm.VIKAVOLT
   evolutionRule = new HatchEvolutionRule(EvolutionTime.EVOLVE_HATCH)
   hp = 140
-  atk = 17
+  atk = 14
   speed = 39
   def = 6
   speDef = 6
-  maxPP = 70
+  maxPP = 80
   range = 3
   skill = Ability.ZAP_CANNON
   passive = Passive.HATCH
@@ -15334,11 +15334,11 @@ export class Vikavolt extends Pokemon {
   rarity = Rarity.HATCH
   stars = 3
   hp = 190
-  atk = 33
+  atk = 27
   speed = 39
   def = 8
   speDef = 8
-  maxPP = 70
+  maxPP = 80
   range = 3
   skill = Ability.ZAP_CANNON
   attackSprite = AttackSprite.ELECTRIC_RANGE
@@ -15354,7 +15354,7 @@ export class ShellosWestSea extends Pokemon {
   stars = 1
   evolution = Pkm.GASTRODON_WEST_SEA
   hp = 120
-  atk = 11
+  atk = 9
   speed = 38
   def = 6
   speDef = 10
@@ -15381,7 +15381,7 @@ export class GastrodonWestSea extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 270
-  atk = 24
+  atk = 19
   speed = 38
   def = 10
   speDef = 12
@@ -15409,7 +15409,7 @@ export class ShellosEastSea extends Pokemon {
   stars = 1
   evolution = Pkm.GASTRODON_EAST_SEA
   hp = 120
-  atk = 11
+  atk = 9
   speed = 38
   def = 6
   speDef = 10
@@ -15440,7 +15440,7 @@ export class GastrodonEastSea extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 270
-  atk = 24
+  atk = 19
   speed = 38
   def = 10
   speDef = 12
@@ -15484,7 +15484,7 @@ export class Braviary extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 160
-  atk = 16
+  atk = 15
   speed = 51
   def = 8
   speDef = 8
@@ -15504,7 +15504,7 @@ export class Klefki extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 150
-  atk = 16
+  atk = 15
   speed = 49
   def = 8
   speDef = 6
@@ -15523,7 +15523,7 @@ export class Hawlucha extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 180
-  atk = 16
+  atk = 17
   speed = 63
   def = 8
   speDef = 8
@@ -15538,7 +15538,7 @@ export class Stonjourner extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 21
+  atk = 20
   speed = 47
   def = 20
   speDef = 2
@@ -15585,7 +15585,7 @@ export class Arrokuda extends Pokemon {
   rarity = Rarity.SPECIAL
   stars = 1
   hp = 80
-  atk = 11
+  atk = 10
   speed = 46
   def = 2
   speDef = 2
@@ -15600,7 +15600,7 @@ export class Durant extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 190
-  atk = 18
+  atk = 19
   speed = 60
   def = 12
   speDef = 4
@@ -15617,7 +15617,7 @@ export class Wishiwashi extends Pokemon {
   stars = 1
   evolution = Pkm.WISHIWASHI_SCHOOL
   hp = 100
-  atk = 14
+  atk = 11
   speed = 38
   def = 4
   speDef = 4
@@ -15639,7 +15639,7 @@ export class WishiwashiSchool extends Pokemon {
   stars = 3
   evolution = Pkm.WISHIWASHI_SCHOOL
   hp = 300
-  atk = 30
+  atk = 22
   speed = 35
   def = 6
   speDef = 6
@@ -15689,7 +15689,7 @@ export class Pawmot extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 240
-  atk = 29
+  atk = 31
   speed = 59
   def = 10
   speDef = 10
@@ -15708,11 +15708,11 @@ export class Pyukumuku extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 150
-  atk = 16
+  atk = 10
   speed = 27
   def = 14
   speDef = 14
-  maxPP = 90
+  maxPP = 100
   range = 1
   skill = Ability.PURIFY
   passive = Passive.PYUKUMUKU
@@ -15725,7 +15725,7 @@ export class Goldeen extends Pokemon {
   stars = 1
   evolution = Pkm.SEAKING
   hp = 90
-  atk = 9
+  atk = 8
   speed = 47
   def = 4
   speDef = 4
@@ -15741,7 +15741,7 @@ export class Seaking extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 250
-  atk = 17
+  atk = 16
   speed = 47
   def = 8
   speDef = 8
@@ -15757,7 +15757,7 @@ export class Luvdisc extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 150
-  atk = 13
+  atk = 14
   speed = 56
   def = 6
   speDef = 10
@@ -15773,7 +15773,7 @@ export class Audino extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 20
+  atk = 17
   speed = 41
   def = 8
   speDef = 8
@@ -15861,7 +15861,7 @@ export class Mantine extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 230
-  atk = 13
+  atk = 12
   speed = 47
   def = 8
   speDef = 16
@@ -15878,7 +15878,7 @@ export class Remoraid extends Pokemon {
   evolution = Pkm.OCTILLERY
   stars = 1
   hp = 60
-  atk = 16
+  atk = 13
   speed = 39
   def = 4
   speDef = 2
@@ -15901,11 +15901,11 @@ export class Octillery extends Pokemon {
   rarity = Rarity.SPECIAL
   stars = 2
   hp = 150
-  atk = 32
+  atk = 26
   speed = 39
   def = 6
   speDef = 6
-  maxPP = 90
+  maxPP = 100
   range = 3
   skill = Ability.OKTZOOKA
   attackSprite = AttackSprite.WATER_RANGE
@@ -16046,11 +16046,11 @@ export class Binacle extends Pokemon {
   stars = 1
   evolution = Pkm.BARBARACLE
   hp = 80
-  atk = 10
+  atk = 9
   speed = 47
   def = 8
   speDef = 4
-  maxPP = 60
+  maxPP = 65
   range = 1
   skill = Ability.STONE_EDGE
   additional = true
@@ -16062,11 +16062,11 @@ export class Barbaracle extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 200
-  atk = 22
+  atk = 21
   speed = 47
   def = 16
   speDef = 8
-  maxPP = 60
+  maxPP = 65
   range = 1
   skill = Ability.STONE_EDGE
   additional = true
@@ -16078,7 +16078,7 @@ export class Skarmory extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 190
-  atk = 19
+  atk = 18
   speed = 47
   def = 16
   speDef = 8
@@ -16150,7 +16150,7 @@ export class OgerponTeal extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 60
   def = 4
   speDef = 4
@@ -16167,7 +16167,7 @@ export class OgerponTealMask extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 60
   def = 8
   speDef = 8
@@ -16185,7 +16185,7 @@ export class OgerponWellspring extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 60
   def = 4
   speDef = 4
@@ -16202,7 +16202,7 @@ export class OgerponWellspringMask extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 60
   def = 8
   speDef = 16
@@ -16221,7 +16221,7 @@ export class OgerponHearthflame extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 20
+  atk = 21
   speed = 60
   def = 4
   speDef = 4
@@ -16238,7 +16238,7 @@ export class OgerponHearthflameMask extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 20
+  atk = 21
   speed = 60
   def = 8
   speDef = 8
@@ -16257,7 +16257,7 @@ export class OgerponCornerstone extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 60
   def = 4
   speDef = 4
@@ -16274,7 +16274,7 @@ export class OgerponCornerstoneMask extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 16
+  atk = 17
   speed = 60
   def = 16
   speDef = 8
@@ -16297,7 +16297,7 @@ export class IronHands extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 230
-  atk = 24
+  atk = 20
   speed = 41
   def = 8
   speDef = 6
@@ -16313,7 +16313,7 @@ export class Rookidee extends Pokemon {
   stars = 1
   evolution = Pkm.CORVISQUIRE
   hp = 80
-  atk = 7
+  atk = 6
   speed = 46
   def = 8
   speDef = 4
@@ -16330,7 +16330,7 @@ export class Corvisquire extends Pokemon {
   stars = 2
   evolution = Pkm.CORVIKNIGHT
   hp = 130
-  atk = 11
+  atk = 10
   speed = 46
   def = 12
   speDef = 6
@@ -16346,7 +16346,7 @@ export class Corviknight extends Pokemon {
   rarity = Rarity.RARE
   stars = 3
   hp = 220
-  atk = 22
+  atk = 20
   speed = 46
   def = 16
   speDef = 8
@@ -16361,7 +16361,7 @@ export class Turtonator extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 200
-  atk = 18
+  atk = 14
   speed = 37
   def = 24
   speDef = 10
@@ -16381,7 +16381,7 @@ export class Sandygast extends Pokemon {
   stars = 1
   evolution = Pkm.PALOSSAND
   hp = 60
-  atk = 7
+  atk = 6
   speed = 36
   def = 6
   speDef = 2
@@ -16401,7 +16401,7 @@ export class Palossand extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 14
+  atk = 11
   speed = 36
   def = 8
   speDef = 4
@@ -16466,7 +16466,7 @@ export class Darmanitan extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 220
-  atk = 23
+  atk = 24
   speed = 55
   def = 2
   speDef = 2
@@ -16482,7 +16482,7 @@ export class DarmanitanZen extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 220
-  atk = 14
+  atk = 15
   speed = 55
   def = 12
   speDef = 12
@@ -16515,7 +16515,7 @@ export class Kingler extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 150
-  atk = 15
+  atk = 14
   speed = 49
   def = 12
   speDef = 4
@@ -16531,7 +16531,7 @@ export class Zygarde10 extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 3
   hp = 250
-  atk = 24
+  atk = 26
   speed = 62
   def = 8
   speDef = 8
@@ -16573,7 +16573,7 @@ export class Zygarde100 extends Pokemon {
   rarity = Rarity.LEGENDARY
   stars = 4
   hp = 300
-  atk = 29
+  atk = 28
   speed = 52
   def = 10
   speDef = 10
@@ -16589,7 +16589,7 @@ export class Sizzlipede extends Pokemon {
   stars = 1
   evolution = Pkm.CENTISKORCH
   hp = 75
-  atk = 10
+  atk = 9
   speed = 46
   def = 2
   speDef = 6
@@ -16605,7 +16605,7 @@ export class Centiskorch extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 140
-  atk = 20
+  atk = 18
   speed = 46
   def = 2
   speDef = 8
@@ -16622,7 +16622,7 @@ export class Stufful extends Pokemon {
   stars = 1
   evolution = Pkm.BEWEAR
   hp = 100
-  atk = 9
+  atk = 8
   speed = 44
   def = 6
   speDef = 4
@@ -16638,7 +16638,7 @@ export class Bewear extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 260
-  atk = 29
+  atk = 25
   speed = 44
   def = 12
   speDef = 8
@@ -16690,11 +16690,11 @@ export class Fletchling extends Pokemon {
   stars = 1
   evolution = Pkm.FLETCHINDER
   hp = 120
-  atk = 11
+  atk = 12
   speed = 65
   def = 6
   speDef = 6
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.FIRESTARTER
   attackSprite = AttackSprite.FIRE_RANGE
@@ -16706,11 +16706,11 @@ export class Fletchinder extends Pokemon {
   stars = 2
   evolution = Pkm.TALONFLAME
   hp = 230
-  atk = 23
+  atk = 25
   speed = 65
   def = 10
   speDef = 10
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.FIRESTARTER
   attackSprite = AttackSprite.FIRE_RANGE
@@ -16721,11 +16721,11 @@ export class Talonflame extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 340
-  atk = 34
+  atk = 37
   speed = 65
   def = 14
   speDef = 14
-  maxPP = 110
+  maxPP = 100
   range = 2
   skill = Ability.FIRESTARTER
   attackSprite = AttackSprite.FIRE_RANGE
@@ -16737,7 +16737,7 @@ export class Vullaby extends Pokemon {
   stars = 1
   evolution = Pkm.MANDIBUZZ
   hp = 90
-  atk = 11
+  atk = 10
   speed = 51
   def = 8
   speDef = 4
@@ -16753,7 +16753,7 @@ export class Mandibuzz extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 210
-  atk = 20
+  atk = 19
   speed = 51
   def = 12
   speDef = 8
@@ -16794,7 +16794,7 @@ export class Malamar extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 230
-  atk = 21
+  atk = 19
   speed = 48
   def = 10
   speDef = 24
@@ -16865,7 +16865,7 @@ export class Timburr extends Pokemon {
   stars = 1
   evolution = Pkm.GURDURR
   hp = 140
-  atk = 18
+  atk = 15
   speed = 39
   def = 8
   speDef = 4
@@ -16889,7 +16889,7 @@ export class Gurdurr extends Pokemon {
   stars = 2
   evolution = Pkm.CONKELDURR
   hp = 280
-  atk = 32
+  atk = 26
   speed = 39
   def = 12
   speDef = 6
@@ -16912,7 +16912,7 @@ export class Conkeldurr extends Pokemon {
   rarity = Rarity.ULTRA
   stars = 3
   hp = 400
-  atk = 45
+  atk = 36
   speed = 39
   def = 16
   speDef = 8
@@ -16979,7 +16979,7 @@ export class PillarConcrete extends Pokemon {
   types = new SetSchema<Synergy>([])
   rarity = Rarity.SPECIAL
   stars = 3
-  hp = 400
+  hp = 300
   atk = 0
   speed = 0
   def = 10
@@ -17008,7 +17008,7 @@ export class Elgyem extends Pokemon {
   stars = 1
   evolution = Pkm.BEHEEYEM
   hp = 70
-  atk = 10
+  atk = 8
   speed = 38
   def = 4
   speDef = 4
@@ -17028,7 +17028,7 @@ export class Beheeyem extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 150
-  atk = 23
+  atk = 18
   speed = 38
   def = 8
   speDef = 8
@@ -17045,7 +17045,7 @@ export class Litten extends Pokemon {
   stars = 1
   evolution = Pkm.TORRACAT
   hp = 90
-  atk = 9
+  atk = 8
   speed = 44
   def = 8
   speDef = 6
@@ -17061,7 +17061,7 @@ export class Torracat extends Pokemon {
   stars = 2
   evolution = Pkm.INCINEROAR
   hp = 170
-  atk = 16
+  atk = 14
   speed = 44
   def = 12
   speDef = 10
@@ -17076,7 +17076,7 @@ export class Incineroar extends Pokemon {
   rarity = Rarity.EPIC
   stars = 3
   hp = 280
-  atk = 28
+  atk = 24
   speed = 44
   def = 16
   speDef = 14
@@ -17096,11 +17096,11 @@ export class Skrelp extends Pokemon {
   stars = 1
   evolution = Pkm.DRAGALGE
   hp = 60
-  atk = 9
+  atk = 7
   speed = 39
   def = 2
   speDef = 2
-  maxPP = 90
+  maxPP = 100
   range = 3
   skill = Ability.SLUDGE_WAVE
   attackSprite = AttackSprite.POISON_RANGE
@@ -17116,11 +17116,11 @@ export class Dragalge extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 2
   hp = 130
-  atk = 18
+  atk = 15
   speed = 39
   def = 4
   speDef = 4
-  maxPP = 90
+  maxPP = 100
   range = 3
   skill = Ability.SLUDGE_WAVE
   attackSprite = AttackSprite.POISON_RANGE
@@ -17133,7 +17133,7 @@ export class Cubchoo extends Pokemon {
   stars = 1
   evolution = Pkm.BEARTIC
   hp = 90
-  atk = 12
+  atk = 10
   speed = 41
   def = 4
   speDef = 4
@@ -17149,7 +17149,7 @@ export class Beartic extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 200
-  atk = 31
+  atk = 26
   speed = 41
   def = 8
   speDef = 8
@@ -17166,7 +17166,7 @@ export class Nacli extends Pokemon {
   stars = 1
   evolution = Pkm.NACLSTACK
   hp = 80
-  atk = 9
+  atk = 7
   speed = 36
   def = 6
   speDef = 2
@@ -17182,7 +17182,7 @@ export class Naclstack extends Pokemon {
   stars = 2
   evolution = Pkm.GARGANACL
   hp = 160
-  atk = 17
+  atk = 13
   speed = 36
   def = 8
   speDef = 4
@@ -17197,7 +17197,7 @@ export class Garganacl extends Pokemon {
   rarity = Rarity.UNCOMMON
   stars = 3
   hp = 280
-  atk = 32
+  atk = 24
   speed = 36
   def = 12
   speDef = 8
@@ -17262,7 +17262,7 @@ export class Slurpuff extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 190
-  atk = 23
+  atk = 21
   speed = 48
   def = 8
   speDef = 8
@@ -17283,7 +17283,7 @@ export class Gulpin extends Pokemon {
   stars = 1
   evolution = Pkm.SWALOT
   hp = 120
-  atk = 8
+  atk = 7
   speed = 43
   def = 4
   speDef = 4
@@ -17303,7 +17303,7 @@ export class Swalot extends Pokemon {
   rarity = Rarity.EPIC
   stars = 2
   hp = 280
-  atk = 18
+  atk = 15
   speed = 43
   def = 8
   speDef = 8
@@ -17345,7 +17345,7 @@ export class Dachsbun extends Pokemon {
   rarity = Rarity.RARE
   stars = 2
   hp = 170
-  atk = 14
+  atk = 15
   speed = 55
   def = 12
   speDef = 10
@@ -17420,11 +17420,11 @@ export class Milcery extends Pokemon {
     }
   )
   hp = 130
-  atk = 13
+  atk = 10
   speed = 36
   def = 2
   speDef = 6
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   passive = Passive.CREAM
@@ -17446,11 +17446,11 @@ export class AlcremieVanilla extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17467,11 +17467,11 @@ export class AlcremieRuby extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17488,11 +17488,11 @@ export class AlcremieMatcha extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17509,11 +17509,11 @@ export class AlcremieMint extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17530,11 +17530,11 @@ export class AlcremieLemon extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17551,11 +17551,11 @@ export class AlcremieSalted extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17572,11 +17572,11 @@ export class AlcremieRubySwirl extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17593,11 +17593,11 @@ export class AlcremieCaramelSwirl extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
@@ -17614,11 +17614,11 @@ export class AlcremieRainbowSwirl extends Pokemon {
   rarity = Rarity.UNIQUE
   stars = 3
   hp = 160
-  atk = 20
+  atk = 16
   speed = 36
   def = 6
   speDef = 12
-  maxPP = 70
+  maxPP = 80
   range = 2
   skill = Ability.DECORATE
   attackSprite = AttackSprite.FAIRY_RANGE
