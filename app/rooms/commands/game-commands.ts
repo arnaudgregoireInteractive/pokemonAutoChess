@@ -190,21 +190,14 @@ export class OnPokemonCatchCommand extends Command<
   GameRoom,
   {
     playerId: string
-    pkm: Pkm
     id: string
   }
 > {
-  execute({ playerId, pkm, id }) {
-    if (
-      playerId === undefined ||
-      pkm === undefined ||
-      !this.state.players.has(playerId)
-    )
-      return
+  execute({ playerId, id }) {
+    if (playerId === undefined || !this.state.players.has(playerId)) return
     const player = this.state.players.get(playerId)
-    if (!player) return
-
-    if (this.state.wanderers.has(id) === false) return
+    const pkm = this.state.wanderers.get(id)
+    if (!player || !pkm) return
     this.state.wanderers.delete(id)
 
     const pokemon = PokemonFactory.createPokemonFromName(pkm, player)
@@ -1744,7 +1737,7 @@ export class OnUpdatePhaseCommand extends Command<GameRoom> {
         if (chance(UNOWN_ENCOUNTER_CHANCE)) {
           const pkm = pickRandomIn(Unowns)
           const id = nanoid()
-          this.state.wanderers.add(id)
+          this.state.wanderers.set(id, pkm)
           setTimeout(
             () => {
               client.send(Transfer.UNOWN_WANDERING, { id, pkm })
@@ -1761,7 +1754,7 @@ export class OnUpdatePhaseCommand extends Command<GameRoom> {
           for (let i = 0; i < nbPokemonsToSpawn; i++) {
             const id = nanoid()
             const pkm = this.state.shop.pickPokemon(player, this.state)
-            this.state.wanderers.add(id)
+            this.state.wanderers.set(id, pkm)
             setTimeout(
               () => {
                 client.send(Transfer.POKEMON_WANDERING, { id, pkm })

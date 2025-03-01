@@ -62,7 +62,7 @@ export default class GameState extends Schema {
   pveRewardsPropositions: Item[] = []
   minRank: EloRank | null = null
   maxRank: EloRank | null = null
-  wanderers: Set<string> = new Set()
+  wanderers: Map<string, Pkm> = new Map<string, Pkm>()
   nbComponentsFromCarousel = 0
 
   constructor(

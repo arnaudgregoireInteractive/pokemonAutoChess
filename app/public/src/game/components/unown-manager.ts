@@ -19,10 +19,7 @@ export default class UnownManager {
 
   addWanderingUnown(pkm: Pkm, id: string) {
     addWanderingPokemon(this.scene, id, pkm, (unown, id, pointer, tween) => {
-      getGameContainer().room.send(Transfer.UNOWN_WANDERING, {
-        id,
-        pkm: unown.index
-      })
+      getGameContainer().room.send(Transfer.UNOWN_WANDERING, { id })
       this.displayShardGain([pointer.x, pointer.y], unown.index)
       unown.destroy()
       tween.destroy()

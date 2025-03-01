@@ -52,6 +52,7 @@ import { Passive } from "../types/enum/Passive"
 import {
   Pkm,
   PkmDuos,
+  PkmIndex,
   PkmProposition,
   PkmRegionalVariants
 } from "../types/enum/Pokemon"
@@ -438,9 +439,11 @@ export default class GameRoom extends Room<GameState> {
 
     this.onMessage(
       Transfer.UNOWN_WANDERING,
-      async (client, { id: unownId, pkm: unownIndex }) => {
+      async (client, { id: unownId }) => {
         try {
-          if (this.state.wanderers.has(unownId) === false) return
+          const pkm = this.state.wanderers.get(unownId)
+          if (!pkm) return
+          const unownIndex = PkmIndex[pkm]
           this.state.wanderers.delete(unownId)
           if (client.auth) {
             const DUST_PER_ENCOUNTER = 50
@@ -473,7 +476,6 @@ export default class GameRoom extends Room<GameState> {
         try {
           this.dispatcher.dispatch(new OnPokemonCatchCommand(), {
             playerId: client.auth.uid,
-            pkm: msg.pkm,
             id: msg.id
           })
         } catch (e) {

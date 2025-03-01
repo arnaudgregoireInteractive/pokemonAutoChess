@@ -556,7 +556,7 @@ export class BuyEmotionCommand extends Command<
     try {
       const user = this.room.users.get(client.auth.uid)
       const cost = getEmotionCost(emotion, shiny)
-      if (!user) return
+      if (!user || !PkmByIndex.hasOwnProperty(index)) return
       const pokemonConfig = user.pokemonCollection.get(index)
       if (!pokemonConfig) return
 

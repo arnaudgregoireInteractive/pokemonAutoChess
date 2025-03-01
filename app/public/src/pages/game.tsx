@@ -441,7 +441,7 @@ export default function Game() {
               scene.board &&
               getFreeSpaceOnBench(scene.board.player.board) > 0
             ) {
-              room.send(Transfer.POKEMON_WANDERING, { id, pkm })
+              room.send(Transfer.POKEMON_WANDERING, { id })
               sprite.destroy()
               tween.destroy()
             } else if (scene.board) {
