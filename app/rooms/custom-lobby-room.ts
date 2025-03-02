@@ -49,7 +49,7 @@ import {
   JoinOrOpenRoomCommand,
   NextTournamentStageCommand,
   OnCreateTournamentCommand,
-  OnDeleteRoomCommand,
+  DeleteRoomCommand,
   OnJoinCommand,
   OnLeaveCommand,
   OnNewMessageCommand,
@@ -58,9 +58,10 @@ import {
   OpenBoosterCommand,
   ParticipateInTournamentCommand,
   RemoveMessageCommand,
-  RemoveTournamentCommand,
+  DeleteTournamentCommand,
   SelectLanguageCommand,
-  UnbanUserCommand
+  UnbanUserCommand,
+  RemakeTournamentLobbyCommand
 } from "./commands/lobby-commands"
 import LobbyState from "./states/lobby-state"
 
@@ -165,7 +166,7 @@ export default class CustomLobbyRoom extends Room<LobbyState> {
     this.onMessage(Transfer.DELETE_ROOM, (client, roomId) => {
       logger.info(Transfer.DELETE_ROOM, this.roomName)
       try {
-        this.dispatcher.dispatch(new OnDeleteRoomCommand(), { client, roomId })
+        this.dispatcher.dispatch(new DeleteRoomCommand(), { client, roomId })
       } catch (error) {
         logger.error(error)
       }
@@ -225,9 +226,9 @@ export default class CustomLobbyRoom extends Room<LobbyState> {
     )
 
     this.onMessage(
-      Transfer.REMOVE_TOURNAMENT,
+      Transfer.DELETE_TOURNAMENT,
       (client, message: { id: string }) => {
-        this.dispatcher.dispatch(new RemoveTournamentCommand(), {
+        this.dispatcher.dispatch(new DeleteTournamentCommand(), {
           client,
           tournamentId: message.id
         })
@@ -235,12 +236,34 @@ export default class CustomLobbyRoom extends Room<LobbyState> {
     )
 
     this.onMessage(
-      Transfer.REMAKE_TOURNAMENT_LOBBIES,
-      (client, message: { id: string }) => {
-        this.dispatcher.dispatch(new CreateTournamentLobbiesCommand(), {
-          client,
-          tournamentId: message.id
-        })
+      Transfer.REMAKE_TOURNAMENT_LOBBY,
+      async (client, message: { tournamentId: string; bracketId: string }) => {
+        if (message.bracketId === "all") {
+          // delete all ongoing games
+          await this.dispatcher.dispatch(new DeleteRoomCommand(), {
+            client,
+            tournamentId: message.tournamentId,
+            bracketId: message.bracketId
+          })
+          this.dispatcher.dispatch(new CreateTournamentLobbiesCommand(), {
+            client,
+            tournamentId: message.tournamentId
+          })
+        } else {
+          // delete ongoing game
+          await this.dispatcher.dispatch(new DeleteRoomCommand(), {
+            client,
+            tournamentId: message.tournamentId,
+            bracketId: message.bracketId
+          })
+
+          // recreate lobby
+          this.dispatcher.dispatch(new RemakeTournamentLobbyCommand(), {
+            client,
+            tournamentId: message.tournamentId,
+            bracketId: message.bracketId
+          })
+        }
       }
     )
 

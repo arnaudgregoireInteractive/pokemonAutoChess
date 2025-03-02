@@ -237,11 +237,14 @@ export const networkSlice = createSlice({
       if (state.profile) state.profile.title = action.payload
       state.lobby?.send(Transfer.SET_TITLE, action.payload)
     },
-    removeTournament: (state, action: PayloadAction<{ id: string }>) => {
-      state.lobby?.send(Transfer.REMOVE_TOURNAMENT, action.payload)
+    deleteTournament: (state, action: PayloadAction<{ id: string }>) => {
+      state.lobby?.send(Transfer.DELETE_TOURNAMENT, action.payload)
     },
-    createTournamentLobbies: (state, action: PayloadAction<{ id: string }>) => {
-      state.lobby?.send(Transfer.REMAKE_TOURNAMENT_LOBBIES, action.payload)
+    remakeTournamentLobby: (
+      state,
+      action: PayloadAction<{ tournamentId: string; bracketId: string }>
+    ) => {
+      state.lobby?.send(Transfer.REMAKE_TOURNAMENT_LOBBY, action.payload)
     },
     participateInTournament: (
       state,
@@ -311,8 +314,8 @@ export const {
   giveTitle,
   giveRole,
   removeMessage,
-  removeTournament,
-  createTournamentLobbies,
+  deleteTournament,
+  remakeTournamentLobby,
   participateInTournament,
   giveBooster,
   showEmote,

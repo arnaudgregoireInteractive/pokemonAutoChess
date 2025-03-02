@@ -4,7 +4,6 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import { useAppDispatch, useAppSelector } from "../../../hooks"
 import { formatDate } from "../../utils/date"
 import { participateInTournament } from "../../../stores/NetworkStore"
-import { getAvatarSrc } from "../../../../../utils/avatar"
 import { EloBadge } from "../profile/elo-badge"
 import { getTournamentStage } from "../../../../../core/tournament-logic"
 import { entries, values } from "../../../../../utils/schemas"
@@ -15,8 +14,8 @@ import {
 import { average } from "../../../../../utils/number"
 import { cc } from "../../utils/jsx"
 import { TOURNAMENT_REGISTRATION_TIME } from "../../../../../types/Config"
-import "./tournament-item.css"
 import PokemonPortrait from "../pokemon-portrait"
+import "./tournament-item.css"
 
 export default function TournamentItem(props: {
   tournament: TournamentSchema
@@ -42,7 +41,7 @@ export default function TournamentItem(props: {
         return b.ranks.length - a.ranks.length
       if (tournamentFinished && a.ranks.length === nbStages) {
         // sort finalists by last rank
-        return a.ranks[a.ranks.length - 1] - b.ranks[b.ranks.length - 1]
+        return (a.ranks[a.ranks.length - 1] ?? 8) - (b.ranks[b.ranks.length - 1] ?? 8)
       }
       return average(...values(a.ranks)) - average(...values(b.ranks))
     }

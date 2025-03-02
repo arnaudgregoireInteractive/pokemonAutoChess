@@ -1,5 +1,5 @@
 .tournaments-admin {
-  width: 640px;
+  width: 1200px;
 }
 
 .tournaments-admin ul {
@@ -10,6 +10,22 @@
   list-style: none;
 }
 
+.tournament-form {
+  display: flex;
+  gap: 0.5em;
+  align-items: end;
+}
+
 .tournament-form label {
   display: block;
+}
+
+.tournaments-admin .actions {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.tournament-admin-item table {
+  width: 100%;
 }

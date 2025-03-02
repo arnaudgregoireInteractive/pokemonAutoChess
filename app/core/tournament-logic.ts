@@ -1,3 +1,4 @@
+import { ArraySchema } from "@colyseus/schema"
 import {
   ITournament,
   ITournamentBracket,
@@ -59,7 +60,7 @@ export function makeBrackets(tournament: ITournament): ITournamentBracket[] {
     }
     const bracket: ITournamentBracket = {
       name: bracketName,
-      playersId: [],
+      playersId: new ArraySchema(),
       finished: false
     }
     brackets.push(bracket)
